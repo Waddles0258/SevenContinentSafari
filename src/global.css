@@ -96,6 +96,9 @@ header a {
   height: 136px;
 }
 
+
+
+
 /*-----------------------------------------*/
 
 
@@ -138,8 +141,8 @@ h2 {
   height: 510px;
   margin: 0 auto;
   border-radius: 15px;
-  
- 
+
+
   margin-bottom: 50px;
 }
 
@@ -181,6 +184,7 @@ h2 {
 }
 
 .map__title-ocean--arctic {
+  top: 5vh;
   left: 45vw;
 }
 
@@ -206,7 +210,7 @@ h2 {
 
 .map__title-ocean--southern {
   left: 45vw;
-  bottom: 30vh;
+  bottom: 32vh;
 }
 
 .map__title-continent {
@@ -218,7 +222,7 @@ h2 {
 }
 
 .map__title-continent--europe {
-  top: 18vh;
+  top: 20vh;
   right: 45vw;
 }
 
@@ -229,12 +233,12 @@ h2 {
 }
 
 .map__title-continent--s-america {
-  top: 45vh;
+  top: 47vh;
   left: 32vw;
 }
 
 .map__title-continent--n-america {
-  top: 20vh;
+  top: 22vh;
   left: 25vw;
 }
 
@@ -245,7 +249,7 @@ h2 {
 
 .map__title-continent--australia {
   right: 23vw;
-  bottom: 37vh;
+  bottom: 40vh;
 }
 
 .map__title-continent--antarctica {
@@ -270,6 +274,24 @@ h2 {
   background: url(./img/hare.svg);
   top: 23vh;
   left: 53vw;
+}
+
+.map__img--toukan {
+  background: url(./img/toucan.svg);
+  top: 42vh;
+  left: 30vw;
+}
+
+.map__img--parrot {
+  background: url(./img/parrot.svg);
+  top: 55vh;
+  left: 35vw;
+}
+
+.map__img--cingulata {
+  background: url(./img/сingulata.svg);
+  top: 65vh;
+  left: 30vw;
 }
 
 .map__img {
@@ -334,6 +356,7 @@ footer {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
- margin: 0;
+  margin: 0;
 }
+
 /*----------------------------------------------*/
