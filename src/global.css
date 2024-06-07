@@ -92,8 +92,11 @@ header a {
 }
 
 .logo {
+  background: url(./components/Header/img/Logo.svg) no-repeat;
+  background-size: cover;
   width: 150px;
   height: 136px;
+  display: block;
 }
 
 

@@ -4,7 +4,7 @@ export const Header = () => {
   return (
     <header>
     <div className="header-box">
-    <a href="#Logo"><img className="logo" src="src/components/Header/img/Logo.svg" alt="logo"/></a>
+    <a href="#Logo" className="logo"></a>
     <div className="nav">
       <a className="hover-orange" href="#Pexxesso">Pexxesso</a>
     <div className="subnav">
