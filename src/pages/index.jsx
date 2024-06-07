@@ -6,7 +6,7 @@ import { Footer } from '../components/Footer';
 
 document.querySelector('#root').innerHTML = render(
   <>
-  <Header/>
+    <Header />
     <div class="wrapper">
       <div className="main__container container">
         <iframe
@@ -57,9 +57,22 @@ document.querySelector('#root').innerHTML = render(
       <div className="map__img map__img--stork"></div>
       <div className="map__img map__img--wolf"></div>
       <p className="map__title-continent map__title-continent--asia">Asia</p>
+      <div className="map__img map__img--panda"></div>
+      <div className="map__img map__img--turtle"></div>
+      <div className="map__img map__img--peacock"></div>
+      <div className="map__img map__img--orangutan"></div>
+      <div className="map__img map__img--lynx"></div>
+      <div className="map__img map__img--tiger"></div>
       <p className="map__title-continent map__title-continent--n-america">
         North<br></br> America
       </p>
+      <div className="map__img map__img--polar-bear"></div>
+      <div className="map__img map__img--grizzly"></div>
+      <div className="map__img map__img--coyote"></div>
+      <div className="map__img map__img--buffalo"></div>
+      <div className="map__img map__img--crocodile"></div>
+      <div className="map__img map__img--eagle"></div>
+      <div className="map__img map__img--raccoon"></div>
       <p className="map__title-continent map__title-continent--s-america">
         South<br></br> America
       </p>
@@ -72,12 +85,30 @@ document.querySelector('#root').innerHTML = render(
       <p className="map__title-continent map__title-continent--africa">
         Africa
       </p>
+      <div className="map__img map__img--camel"></div>
+      <div className="map__img map__img--zebra"></div>
+      <div className="map__img map__img--gorilla"></div>
+      <div className="map__img map__img--lion"></div>
+      <div className="map__img map__img--elephant"></div>
+      <div className="map__img map__img--giraffe"></div>
       <p className="map__title-continent map__title-continent--australia">
         Australia
       </p>
+      <div className="map__img map__img--kangaroo"></div>
+      <div className="map__img map__img--cockatoo"></div>
+      <div className="map__img map__img--koala"></div>
+      <div className="map__img map__img--dingo"></div>
+      <div className="map__img map__img--ostrich"></div>
+      <div className="map__img map__img--black-swan"></div>
       <p className="map__title-continent map__title-continent--antarctica">
         Antarctica
       </p>
+      <div className="map__img map__img--seals"></div>
+      <div className="map__img map__img--walrus"></div>
+      <div className="map__img map__img--penguin"></div>
+      <div className="map__img map__img--killer-whale"></div>
+      <div className="map__img map__img--petrel"></div>
+      <div className="map__img map__img--whale"></div>
     </div>
     <h2 className="video__title">Learn more from video</h2>
     <div className="video__container">
@@ -90,7 +121,6 @@ document.querySelector('#root').innerHTML = render(
       <a href="#" className="video__item video__item--panda"></a>
       <a href="#" className="video__item video__item--turtle"></a>
     </div>
-    <Footer/>
-    
-  </>
+    <Footer />
+  </>,
 );
