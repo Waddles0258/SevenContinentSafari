@@ -1,9 +1,12 @@
 import { render } from '@czechitas/render';
 import '../global.css';
 import './index.css';
+import { Header } from '../components/Header';
+import { Footer } from '../components/Footer';
 
 document.querySelector('#root').innerHTML = render(
   <>
+  <Header/>
     <div class="wrapper">
       <div className="main__container container">
         <iframe
@@ -87,6 +90,7 @@ document.querySelector('#root').innerHTML = render(
       <a href="#" className="video__item video__item--panda"></a>
       <a href="#" className="video__item video__item--turtle"></a>
     </div>
-    ,
-  </>,
+    <Footer/>
+    
+  </>
 );

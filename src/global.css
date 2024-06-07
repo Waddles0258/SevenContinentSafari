@@ -1,9 +1,106 @@
 @import url('https://fonts.googleapis.com/css2?family=Wendy+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Wendy+One&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* Header */
+header {
+  margin-top: 0;
+  font-family: "Wendy One", sans-serif;
+  font-size: 32px;
+  letter-spacing: 2px;
+  margin: auto;
+  background-color: #008D6D;
+  border-bottom: 4px solid FF6924;
+  width: 100%;
+  border-bottom: 4px solid #FF6924;
+  margin-bottom: 100px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-box {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+}
+
+.nav {
+  display: flex;
+  gap: 45px;
+}
+
+.subnav .subnavbtn {
+  font-size: 32px;
+  letter-spacing: 2px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.subnav .subnav-content .hover-orange {
+  display: flex;
+  flex-direction: column;
+}
+
+.subnav {
+  position: relative;
+}
+
+.hover-orange:hover,
+.subnavbtn:hover {
+  background-color: #FF6924;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0px;
+  background-color: #FF6924;
+  padding: 24px 48px;
+  font-size: 24px;
+  z-index: 1;
+  transition: 0.3s;
+}
+
+.subnav:hover .subnav-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  align-items: start;
+
+}
+
+.logo {
+  width: 150px;
+  height: 136px;
+}
+
+/*-----------------------------------------*/
+
 
 body {
   padding: 0;
-  padding-top: 10vh;
   margin: 0;
   background: url(./img/map_background.svg);
   text-align: center;
@@ -32,6 +129,7 @@ h2 {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin-bottom: 120px;
 }
 
 .main__video {
@@ -40,6 +138,9 @@ h2 {
   height: 510px;
   margin: 0 auto;
   border-radius: 15px;
+  
+ 
+  margin-bottom: 50px;
 }
 
 .main__text {
@@ -54,10 +155,11 @@ h2 {
   margin-top: 0;
   padding-top: 25vh;
   font-size: 80px;
+  margin-bottom: 80px;
 }
 
 .countdown__number {
-  font-size: 36px;
+  font-size: 44px;
 }
 
 .map__container {
@@ -67,6 +169,7 @@ h2 {
   background-position: center;
   background-size: 70%;
   background-color: #37B5FF;
+  margin-bottom: 100px;
 }
 
 .map__title-ocean {
@@ -178,6 +281,7 @@ h2 {
 
 .video__title {
   font-size: 64px;
+  margin-bottom: 80px;
 }
 
 .video__item {
@@ -215,3 +319,21 @@ h2 {
   width: 400px;
   height: 200px;
 }
+
+/* Footer */
+footer {
+  background-color: #008D6D;
+  border-top: 4px solid #FF6924;
+}
+
+.footer-title {
+  font-family: "Wendy One", sans-serif;
+  font-size: 32px;
+  letter-spacing: 2px;
+  color: #fff;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+ margin: 0;
+}
+/*----------------------------------------------*/
