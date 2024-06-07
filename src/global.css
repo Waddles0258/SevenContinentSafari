@@ -1,15 +1,217 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wendy+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Wendy+One&display=swap');
 
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: 'Open Sans', sans-serif;
+body {
+  padding: 0;
+  padding-top: 10vh;
+  margin: 0;
+  background: url(./img/map_background.svg);
+  text-align: center;
+  overflow-x: hidden;
+  font-family: "Wendy One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .container {
-  max-width: 20rem;
-  margin-right: auto;
-  margin-left: auto;
+  height: 100vh;
+}
+
+h2 {
+  font-weight: 400;
+  color: #EA400C;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.video__container {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.main__video {
+  display: block;
+  width: 925px;
+  height: 510px;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+.main__text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 160%;
+  color: #02775D;
+  font-family: "Inter", sans-serif;
+}
+
+.countdown__text {
+  margin-top: 0;
+  padding-top: 25vh;
+  font-size: 80px;
+}
+
+.countdown__number {
+  font-size: 36px;
+}
+
+.map__container {
+  position: relative;
+  width: 100vw;
+  background: url(./img/world_map.png) no-repeat;
+  background-position: center;
+  background-size: 70%;
+  background-color: #37B5FF;
+}
+
+.map__title-ocean {
+  position: absolute;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-family: "Inter", sans-serif;
+}
+
+.map__title-ocean--arctic {
+  left: 45vw;
+}
+
+.map__title-ocean--atlantic {
+  top: 30vh;
+  left: 33vw;
+}
+
+.map__title-ocean--pacific1 {
+  top: 45vh;
+  left: 15vw;
+}
+
+.map__title-ocean--pacific2 {
+  right: 13vw;
+  top: 40vh;
+}
+
+.map__title-ocean--indian {
+  top: 45vh;
+  right: 34vw;
+}
+
+.map__title-ocean--southern {
+  left: 45vw;
+  bottom: 30vh;
+}
+
+.map__title-continent {
+  position: absolute;
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+  font-family: "Inter", sans-serif;
+}
+
+.map__title-continent--europe {
+  top: 18vh;
+  right: 45vw;
+}
+
+
+.map__title-continent--asia {
+  top: 17vh;
+  right: 33vw;
+}
+
+.map__title-continent--s-america {
+  top: 45vh;
+  left: 32vw;
+}
+
+.map__title-continent--n-america {
+  top: 20vh;
+  left: 25vw;
+}
+
+.map__title-continent--africa {
+  right: 50vw;
+  top: 35vh;
+}
+
+.map__title-continent--australia {
+  right: 23vw;
+  bottom: 37vh;
+}
+
+.map__title-continent--antarctica {
+  right: 45vw;
+  bottom: 15vh;
+}
+
+
+.map__img--squirrel {
+  top: 13vh;
+  left: 50vw;
+  background: url(./img/squirrel.svg);
+}
+
+.map__img--fox {
+  background: url(./img/fox.svg);
+  top: 22vh;
+  left: 45vw;
+}
+
+.map__img--hare {
+  background: url(./img/hare.svg);
+  top: 23vh;
+  left: 53vw;
+}
+
+.map__img {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  background-repeat: no-repeat;
+}
+
+.video__title {
+  font-size: 64px;
+}
+
+.video__item {
+  border-radius: 7px;
+  width: 200px;
+  height: 100px;
+}
+
+.video__item--butterfly {
+  background: url(./img/butterfly.png);
+  background-size: cover;
+}
+
+.video__item--eagle {
+  background: url(./img/eagle.png);
+  background-size: cover;
+}
+
+.video__item--fox {
+  background: url(./img/fox.png);
+  background-size: cover;
+}
+
+.video__item--panda {
+  background: url(./img/panda.png);
+  background-size: cover;
+}
+
+.video__item--turtle {
+  background: url(./img/turtle.png);
+  background-size: cover;
+}
+
+.video__item--center {
+  width: 400px;
+  height: 200px;
 }
