@@ -8,7 +8,7 @@
 }
 
 .pexesso__text .main__text {
-  color: #00B88F;
+  color: #02775D;
 }
 
 .pexesso__container {
@@ -29,16 +29,20 @@
 }
 
 .button__play-again {
-  border: 2px solid #37B5FF;
+  border: 3px solid #fff;
   border-radius: 100px;
   padding: 20px 56px;
-  width: 307px;
-  height: 79px;
+  width: 300px;
+  height: 80px;
   background: #37B5FF;
   color: #fff;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 32px;
   font-family: "Inter", sans-serif;
   margin: 0 auto;
   margin-bottom: 50px;
+}
+
+.button__play-again:hover {
+  background-color: #19a8fb;
 }

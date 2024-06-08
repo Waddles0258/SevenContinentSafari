@@ -8,6 +8,7 @@ import { MainVideo } from '../components/MainVideo';
 import { CountDown } from '../components/CountDown';
 import { Map } from '../components/Map';
 import { Videos } from '../components/Videos';
+import { Quizz } from '../components/Quizz';
 
 document.querySelector('#root').innerHTML = render(
   <>
@@ -19,6 +20,7 @@ document.querySelector('#root').innerHTML = render(
     <Map />
     <Videos />
     <Pexesso />
+    <Quizz/>
     <Footer />
   </>,
 );

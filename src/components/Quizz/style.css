@@ -1,0 +1,126 @@
+.quizz_title {
+  font-family: 'inter', sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 90%;
+  color: #02775D;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.quizz_subtitle {
+  font-family: 'inter', sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 150%;
+  color: #02775D;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.quizz_container {
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.quizz_container-box {
+  border: 4px solid #FF6924;
+  border-radius: 15px;
+  margin: 0 auto;
+  height: 1200px;
+  background: #00B88F;
+}
+
+.quizz_page-number {
+  font-weight: 400;
+  font-size: 32px;
+  color: #fff;
+  font-family: 'inter', sans-serif;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.quizz_box {
+  border-radius: 15px;
+  width: 464px;
+  height: 464px;
+  background: #fff;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box_img {
+  /*background: url(./img/Earth.svg) ;
+  background-size: cover;*/
+  width: 198px;
+  height: 188px;
+}
+
+.quizz_question {
+  font-weight: 500;
+  font-size: 24px;
+  color: #fff;
+  font-family: 'inter', sans-serif;
+  margin-bottom: 50px;
+}
+
+.quizz-field {
+  max-width: 50%;
+  height: 90px;
+  background: #d9d9d9;
+  border-radius: 15px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.quizz-field:hover {
+  background-color: #FF6924;
+}
+
+.answer {
+  font-weight: 400;
+  font-size: 32px;
+  color: #050505;
+  font-family: 'inter', sans-serif;
+}
+
+.answer:hover {
+  color: #fff;
+}
+
+.quizz-field.quizz-field--second {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+.quizz_btns {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+
+.previous,
+.next {
+  font-family: 'inter', sans-serif;
+  border: 3px solid #fff;
+  border-radius: 100px;
+  padding: 20px 56px;
+  background: #37B5FF;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.previous:hover,
+.next:hover {
+  background-color: #19a8fb;
+}

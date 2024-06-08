@@ -50,7 +50,7 @@ export const Pexesso = () => {
         <div className="pexesso__item"></div>
         <div className="pexesso__item"></div>
       </div>
-      <div className="button__play-again">PLAY AGAIN</div>
+      <div className="button__play-again">Play again</div>
     </>
   );
 };
