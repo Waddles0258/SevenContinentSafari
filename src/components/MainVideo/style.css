@@ -1,0 +1,26 @@
+.video__container {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.main__video {
+  display: block;
+  width: 925px;
+  height: 510px;
+  margin: 0 auto;
+  border-radius: 15px;
+
+
+  margin-bottom: 50px;
+}
+
+.main__text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 160%;
+  color: #02775D;
+  font-family: "Inter", sans-serif;
+}

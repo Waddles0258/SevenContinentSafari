@@ -1,0 +1,280 @@
+.map__container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: url(../../img/world_map.png) no-repeat;
+  background-position: center;
+  background-size: 70%;
+  background-color: #37B5FF;
+  margin-bottom: 100px;
+}
+
+.map__title-ocean {
+  position: absolute;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-family: "Inter", sans-serif;
+}
+
+.map__title-ocean--arctic {
+  top: 5vh;
+  left: 45vw;
+}
+
+.map__title-ocean--atlantic {
+  top: 35vh;
+  left: 33vw;
+}
+
+.map__title-ocean--pacific1 {
+  top: 45vh;
+  left: 15vw;
+}
+
+.map__title-ocean--pacific2 {
+  right: 13vw;
+  top: 40vh;
+}
+
+.map__title-ocean--indian {
+  top: 48vh;
+  right: 34vw;
+}
+
+.map__title-ocean--southern {
+  left: 45vw;
+  bottom: 33vh;
+}
+
+.map__title-continent {
+  position: absolute;
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+  font-family: "Inter", sans-serif;
+}
+
+.map__title-continent--europe {
+  top: 20vh;
+  right: 45vw;
+}
+
+
+.map__title-continent--asia {
+  top: 22vh;
+  right: 33vw;
+}
+
+.map__title-continent--s-america {
+  top: 48vh;
+  left: 32vw;
+}
+
+.map__title-continent--n-america {
+  top: 26vh;
+  left: 25vw;
+}
+
+.map__title-continent--africa {
+  left: 50vw;
+  top: 45vh;
+}
+
+.map__title-continent--australia {
+  right: 23vw;
+  bottom: 40vh;
+}
+
+.map__title-continent--antarctica {
+  right: 45vw;
+  bottom: 19vh;
+}
+
+
+.map__img--squirrel {
+  top: 12vh;
+  left: 50vw;
+  background: url(../../img/squirrel.svg);
+}
+
+.map__img--fox {
+  background: url(../../img/fox.svg);
+  top: 22vh;
+  left: 47vw;
+}
+
+.map__img--hare {
+  background: url(../../img/hare.svg);
+  top: 23vh;
+  left: 53vw;
+}
+
+.map__img--toukan {
+  background: url(../../img/toucan.svg);
+  top: 42vh;
+  left: 30vw;
+}
+
+.map__img--parrot {
+  background: url(../../img/parrot.svg);
+  top: 55vh;
+  left: 35vw;
+}
+
+.map__img--cingulata {
+  background: url(../../img/сingulata.svg);
+  top: 68vh;
+  left: 31vw;
+}
+
+.map__img--sloth {
+  background: url(../../img/sloth.svg);
+  top: 57vh;
+  left: 31vw;
+}
+
+.map__img--seals {
+  background: url(../../img/seal.svg);
+  bottom: 19vh;
+  left: 50vw;
+}
+
+.map__img--walrus {
+  background: url(../../img/walrus.svg);
+  bottom: 13vh;
+  left: 44vw;
+}
+
+.map__img--penguin {
+  background: url(../../img/penguin.svg);
+  bottom: 7vh;
+  left: 52vw;
+}
+
+.map__img--polar-bear {
+  background: url(../../img/polar_bear.svg);
+  left: 30vw;
+  top: 18vh;
+}
+
+.map__img--grizzly {
+  background: url(../../img/grizzly.svg);
+  top: 17vh;
+  left: 20vw;
+}
+
+.map__img--coyote {
+  background: url(../../img/coyote.svg);
+  top: 10vh;
+  left: 25vw;
+}
+
+.map__img--buffalo {
+  background: url(../../img/buffalo.svg);
+  top: 20vh;
+  left: 25vw;
+}
+
+.map__img--crocodile {
+  background: url(../../img/crocodile.svg);
+  top: 36vh;
+  left: 25vw;
+}
+
+.map__img--eagle {
+  background: url(../../img/eagle.svg);
+  top: 10vh;
+  left: 36vw;
+}
+
+.map__img--raccoon {
+  background: url(../../img/raccoon.svg);
+  top: 10vh;
+  left: 30vw;
+}
+
+.map__img--panda {
+  background: url(../../img/panda.svg);
+  top: 20vh;
+  right: 25vw;
+}
+
+.map__img--turtle {
+  background: url(../../img/turtle.svg);
+  top: 17vh;
+  right: 35vw;
+}
+
+.map__img--peacock {
+  background: url(../../img/peacock.svg);
+  top: 30vh;
+  right: 35vw;
+}
+
+.map__img--orangutan {
+  background: url(../../img/orangutan.svg);
+  top: 12vh;
+  right: 20vw;
+}
+
+.map__img--lynx {
+  background: url(../../img/lynx.svg);
+  top: 20vh;
+  right: 38vw;
+}
+
+.map__img--tiger {
+  background: url(../../img/tiger.svg);
+  top: 10vh;
+  right: 30vw;
+}
+
+.map__img--kangaroo {
+  background: url(../../img/kangaroo.svg);
+  bottom: 48vh;
+  right: 23vw;
+}
+
+.map__img--cockatoo {
+  background: url(../../img/cockatoo.svg);
+  bottom: 32vh;
+  right: 18vw;
+}
+
+.map__img--koala {
+  background: url(../../img/koala.svg);
+  bottom: 37vh;
+  right: 28vw;
+}
+
+.map__img--camel {
+  background: url(../../img/camel.svg);
+  top: 37vh;
+  left: 50vw;
+}
+
+.map__img--zebra {
+  background: url(../../img/zebra.svg);
+  top: 48vh;
+  left: 50vw;
+}
+
+.map__img--gorilla {
+  background: url(../../img/gorilla.svg);
+  top: 37vh;
+  left: 45vw;
+}
+
+.map__img--lion {
+  background: url(../../img/lion.svg);
+  top: 55vh;
+  left: 50vw;
+}
+
+.map__img {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  background-repeat: no-repeat;
+}

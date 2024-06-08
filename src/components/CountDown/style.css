@@ -1,0 +1,10 @@
+.countdown__text {
+  margin-top: 0;
+  padding-top: 25vh;
+  font-size: 80px;
+  margin-bottom: 80px;
+}
+
+.countdown__number {
+  font-size: 44px;
+}
