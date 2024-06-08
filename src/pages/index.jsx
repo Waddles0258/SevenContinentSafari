@@ -3,6 +3,7 @@ import '../global.css';
 import './index.css';
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
+import { Pexesso } from '../components/Pexesso';
 
 document.querySelector('#root').innerHTML = render(
   <>
@@ -121,6 +122,7 @@ document.querySelector('#root').innerHTML = render(
       <a href="#" className="video__item video__item--panda"></a>
       <a href="#" className="video__item video__item--turtle"></a>
     </div>
+    <Pexesso />
     <Footer />
   </>,
 );

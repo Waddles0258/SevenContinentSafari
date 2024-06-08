@@ -442,6 +442,51 @@ h2 {
   height: 200px;
 }
 
+.pexesso__text {
+  margin: 0 auto;
+  border: 1px solid #EA400C;
+  width: 700px;
+  height: 204px;
+  padding-top: 35px;
+  border-radius: 15px;
+}
+
+.pexesso__text .main__text {
+  color: #EA400C;
+}
+
+.pexesso__container {
+  display: flex;
+  width: 800px;
+  height: 920px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding-top: 120px;
+  padding-bottom: 40px;
+}
+
+.pexesso__item {
+  width: 115px;
+  height: 115px;
+  background: #00B88F;
+}
+
+.button__play-again {
+  border: 2px solid #37B5FF;
+  border-radius: 100px;
+  padding: 20px 56px;
+  width: 307px;
+  height: 79px;
+  background: #37B5FF;
+  color: #fff;
+  font-weight: 700;
+  font-size: 28px;
+  font-family: "Inter", sans-serif;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
 /* Footer */
 footer {
   background-color: #008D6D;
