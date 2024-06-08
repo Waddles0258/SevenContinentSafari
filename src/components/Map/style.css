@@ -122,10 +122,11 @@
   left: 35vw;
 }
 
-.map__img--cingulata {
-  background: url(../../img/сingulata.svg);
+.map__container .map__img--cingulata {
+  background: url(../../img/сingulata.svg)no-repeat;
   top: 68vh;
-  left: 31vw;
+  left: 30vw;
+  width: 65px;
 }
 
 .map__img--sloth {
@@ -134,16 +135,38 @@
   left: 31vw;
 }
 
-.map__img--seals {
-  background: url(../../img/seal.svg);
+.map__container .map__img--seals {
+  width: 55px;
+  background: url(../../img/seal.svg)no-repeat;
   bottom: 19vh;
   left: 50vw;
 }
 
-.map__img--walrus {
-  background: url(../../img/walrus.svg);
+.map__container .map__img--walrus {
+  width: 55px;
+  background: url(../../img/walrus.svg)no-repeat;
   bottom: 13vh;
   left: 44vw;
+}
+
+.map__container .map__img--killer-whale {
+  width: 55px;
+  background: url(../../img/killer_whale.svg)no-repeat;
+  bottom: 5vh;
+  left: 45vw;
+}
+
+.map__img--petrel {
+  background: url(../../img/petrel.svg);
+  bottom: 12vh;
+  left: 56vw;
+}
+
+.map__container .map__img--whale {
+  width: 55px;
+  background: url(../../img/whale.svg)no-repeat;
+  bottom: 20vh;
+  left: 57vw;
 }
 
 .map__img--penguin {
@@ -176,8 +199,9 @@
   left: 25vw;
 }
 
-.map__img--crocodile {
-  background: url(../../img/crocodile.svg);
+.map__container .map__img--crocodile {
+  width: 80px;
+  background: url(../../img/crocodile.svg)no-repeat;
   top: 36vh;
   left: 25vw;
 }
@@ -271,6 +295,7 @@
   top: 55vh;
   left: 50vw;
 }
+
 
 .map__img {
   position: absolute;
