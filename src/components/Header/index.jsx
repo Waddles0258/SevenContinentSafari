@@ -6,7 +6,7 @@ export const Header = () => {
       <div className="header-box">
         <a href="#Logo" className="logo"></a>
         <div className="nav">
-          <a className="hover-orange" href="#Pexxesso">
+          <a className="hover-orange" href="../Pexesso/index.jsx">
             Pexxesso
           </a>
           <div className="subnav">

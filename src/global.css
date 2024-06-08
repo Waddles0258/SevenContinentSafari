@@ -300,7 +300,13 @@ h2 {
 
 .map__img--cingulata {
   background: url(./img/сingulata.svg);
-  top: 63vh;
+  top: 68vh;
+  left: 31vw;
+}
+
+.map__img--sloth {
+  background: url(./img/sloth.svg);
+  top: 57vh;
   left: 31vw;
 }
 
@@ -330,14 +336,38 @@ h2 {
 
 .map__img--grizzly {
   background: url(./img/grizzly.svg);
-  top: 15vh;
+  top: 17vh;
   left: 20vw;
 }
 
 .map__img--coyote {
   background: url(./img/coyote.svg);
-  top: 6vh;
+  top: 10vh;
   left: 25vw;
+}
+
+.map__img--buffalo {
+  background: url(./img/buffalo.svg);
+  top: 20vh;
+  left: 25vw;
+}
+
+.map__img--crocodile {
+  background: url(./img/crocodile.svg);
+  top: 36vh;
+  left: 25vw;
+}
+
+.map__img--eagle {
+  background: url(./img/eagle.svg);
+  top: 10vh;
+  left: 36vw;
+}
+
+.map__img--raccoon {
+  background: url(./img/raccoon.svg);
+  top: 10vh;
+  left: 30vw;
 }
 
 .map__img--panda {
@@ -356,6 +386,24 @@ h2 {
   background: url(./img/peacock.svg);
   top: 30vh;
   right: 35vw;
+}
+
+.map__img--orangutan {
+  background: url(./img/orangutan.svg);
+  top: 12vh;
+  right: 20vw;
+}
+
+.map__img--lynx {
+  background: url(./img/lynx.svg);
+  top: 20vh;
+  right: 38vw;
+}
+
+.map__img--tiger {
+  background: url(./img/tiger.svg);
+  top: 10vh;
+  right: 30vw;
 }
 
 .map__img--kangaroo {
@@ -384,7 +432,7 @@ h2 {
 
 .map__img--zebra {
   background: url(./img/zebra.svg);
-  top: 50vh;
+  top: 48vh;
   left: 50vw;
 }
 
@@ -392,6 +440,12 @@ h2 {
   background: url(./img/gorilla.svg);
   top: 37vh;
   left: 45vw;
+}
+
+.map__img--lion {
+  background: url(./img/lion.svg);
+  top: 55vh;
+  left: 50vw;
 }
 
 .map__img {
@@ -404,6 +458,10 @@ h2 {
 .video__title {
   font-size: 64px;
   margin-bottom: 80px;
+}
+
+.video__container {
+  position: relative;
 }
 
 .video__item {
@@ -440,6 +498,25 @@ h2 {
 .video__item--center {
   width: 400px;
   height: 200px;
+}
+
+.arrow {
+  position: absolute;
+  color: #fff;
+  font-size: 80px;
+}
+
+.arrow:hover {
+  color: #EA400C;
+  cursor: pointer;
+}
+
+.arrow-back {
+  left: 5vw;
+}
+
+.arrow-right {
+  right: 5vw;
 }
 
 .pexesso__text {

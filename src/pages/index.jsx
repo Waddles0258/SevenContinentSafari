@@ -54,9 +54,6 @@ document.querySelector('#root').innerHTML = render(
       <div className="map__img map__img--squirrel"></div>
       <div className="map__img map__img--fox"></div>
       <div className="map__img map__img--hare"></div>
-      <div className="map__img map__img--hedgehog"></div>
-      <div className="map__img map__img--stork"></div>
-      <div className="map__img map__img--wolf"></div>
       <p className="map__title-continent map__title-continent--asia">Asia</p>
       <div className="map__img map__img--panda"></div>
       <div className="map__img map__img--turtle"></div>
@@ -113,6 +110,8 @@ document.querySelector('#root').innerHTML = render(
     </div>
     <h2 className="video__title">Learn more from video</h2>
     <div className="video__container">
+      <div className="arrow-back arrow"> &lsaquo;</div>
+      <div className="arrow-right arrow"> &rsaquo;</div>
       <a href="#" className="video__item video__item--butterfly"></a>
       <a href="#" className="video__item video__item--eagle"></a>
       <a
