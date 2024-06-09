@@ -1,0 +1,88 @@
+header {
+  margin-top: 0;
+  font-family: "Wendy One", sans-serif;
+  font-size: 32px;
+  letter-spacing: 2px;
+  margin: auto;
+  background-color: #008D6D;
+  border-bottom: 4px solid FF6924;
+  width: 100%;
+  border-bottom: 4px solid #FF6924;
+  margin-bottom: 100px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-box {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+}
+
+.nav {
+  display: flex;
+  gap: 45px;
+}
+
+.subnav .subnavbtn {
+  font-size: 32px;
+  letter-spacing: 2px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.subnav .subnav-content .hover-orange {
+  display: flex;
+  flex-direction: column;
+}
+
+.subnav {
+  position: relative;
+}
+
+.hover-orange:hover {
+  color: #FF6924;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0px;
+  background-color: #FF6924;
+  padding: 24px 48px;
+  font-size: 24px;
+  z-index: 1;
+  transition: 0.3s;
+  border-radius: 15px;
+}
+
+.subnav:hover .subnav-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  align-items: start;
+
+}
+
+
+
+.logo {
+  background: url(./img/Logo.svg) no-repeat;
+  background-size: cover;
+  width: 150px;
+  height: 136px;
+  display: block;
+}

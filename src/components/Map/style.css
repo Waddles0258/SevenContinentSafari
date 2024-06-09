@@ -2,7 +2,7 @@
   position: relative;
   width: 100vw;
   height: 100vh;
-  background: url(../../img/world_map.png) no-repeat;
+  background: url(./img/world_map.png) no-repeat;
   background-position: center;
   background-size: 70%;
   background-color: #37B5FF;
@@ -95,203 +95,203 @@
 .map__img--squirrel {
   top: 12vh;
   left: 50vw;
-  background: url(../../img/squirrel.svg);
+  background: url(./img/squirrel.svg);
 }
 
 .map__img--fox {
-  background: url(../../img/fox.svg);
+  background: url(./img/fox.svg);
   top: 22vh;
   left: 47vw;
 }
 
 .map__img--hare {
-  background: url(../../img/hare.svg);
+  background: url(./img/hare.svg);
   top: 23vh;
   left: 53vw;
 }
 
 .map__img--toukan {
-  background: url(../../img/toucan.svg);
+  background: url(./img/toucan.svg);
   top: 42vh;
   left: 30vw;
 }
 
 .map__img--parrot {
-  background: url(../../img/parrot.svg);
+  background: url(./img/parrot.svg);
   top: 55vh;
   left: 35vw;
 }
 
 .map__container .map__img--cingulata {
-  background: url(../../img/сingulata.svg)no-repeat;
+  background: url(./img/сingulata.svg)no-repeat;
   top: 68vh;
   left: 30vw;
   width: 65px;
 }
 
 .map__img--sloth {
-  background: url(../../img/sloth.svg);
+  background: url(./img/sloth.svg);
   top: 57vh;
   left: 31vw;
 }
 
 .map__container .map__img--seals {
   width: 55px;
-  background: url(../../img/seal.svg)no-repeat;
+  background: url(./img/seal.svg)no-repeat;
   bottom: 19vh;
   left: 50vw;
 }
 
 .map__container .map__img--walrus {
   width: 55px;
-  background: url(../../img/walrus.svg)no-repeat;
+  background: url(./img/walrus.svg)no-repeat;
   bottom: 13vh;
   left: 44vw;
 }
 
 .map__container .map__img--killer-whale {
   width: 55px;
-  background: url(../../img/killer_whale.svg)no-repeat;
+  background: url(./img/killer_whale.svg)no-repeat;
   bottom: 5vh;
   left: 45vw;
 }
 
 .map__img--petrel {
-  background: url(../../img/petrel.svg);
+  background: url(./img/petrel.svg);
   bottom: 12vh;
   left: 56vw;
 }
 
 .map__container .map__img--whale {
   width: 55px;
-  background: url(../../img/whale.svg)no-repeat;
+  background: url(./img/whale.svg)no-repeat;
   bottom: 20vh;
   left: 57vw;
 }
 
 .map__img--penguin {
-  background: url(../../img/penguin.svg);
+  background: url(./img/penguin.svg);
   bottom: 7vh;
   left: 52vw;
 }
 
 .map__img--polar-bear {
-  background: url(../../img/polar_bear.svg);
+  background: url(./img/polar_bear.svg);
   left: 30vw;
   top: 18vh;
 }
 
 .map__img--grizzly {
-  background: url(../../img/grizzly.svg);
+  background: url(./img/grizzly.svg);
   top: 17vh;
   left: 20vw;
 }
 
 .map__img--coyote {
-  background: url(../../img/coyote.svg);
+  background: url(./img/coyote.svg);
   top: 10vh;
   left: 25vw;
 }
 
 .map__img--buffalo {
-  background: url(../../img/buffalo.svg);
+  background: url(./img/buffalo.svg);
   top: 20vh;
   left: 25vw;
 }
 
 .map__container .map__img--crocodile {
   width: 80px;
-  background: url(../../img/crocodile.svg)no-repeat;
+  background: url(./img/crocodile.svg)no-repeat;
   top: 36vh;
   left: 25vw;
 }
 
 .map__img--eagle {
-  background: url(../../img/eagle.svg);
+  background: url(./img/eagle.svg);
   top: 10vh;
   left: 36vw;
 }
 
 .map__img--raccoon {
-  background: url(../../img/raccoon.svg);
+  background: url(./img/raccoon.svg);
   top: 10vh;
   left: 30vw;
 }
 
 .map__img--panda {
-  background: url(../../img/panda.svg);
+  background: url(./img/panda.svg);
   top: 20vh;
   right: 25vw;
 }
 
 .map__img--turtle {
-  background: url(../../img/turtle.svg);
+  background: url(./img/turtle.svg);
   top: 17vh;
   right: 35vw;
 }
 
 .map__img--peacock {
-  background: url(../../img/peacock.svg);
+  background: url(./img/peacock.svg);
   top: 30vh;
   right: 35vw;
 }
 
 .map__img--orangutan {
-  background: url(../../img/orangutan.svg);
+  background: url(./img/orangutan.svg);
   top: 12vh;
   right: 20vw;
 }
 
 .map__img--lynx {
-  background: url(../../img/lynx.svg);
+  background: url(./img/lynx.svg);
   top: 20vh;
   right: 38vw;
 }
 
 .map__img--tiger {
-  background: url(../../img/tiger.svg);
+  background: url(./img/tiger.svg);
   top: 10vh;
   right: 30vw;
 }
 
 .map__img--kangaroo {
-  background: url(../../img/kangaroo.svg);
+  background: url(./img/kangaroo.svg);
   bottom: 48vh;
   right: 23vw;
 }
 
 .map__img--cockatoo {
-  background: url(../../img/cockatoo.svg);
+  background: url(./img/cockatoo.svg);
   bottom: 32vh;
   right: 18vw;
 }
 
 .map__img--koala {
-  background: url(../../img/koala.svg);
+  background: url(./img/koala.svg);
   bottom: 37vh;
   right: 28vw;
 }
 
 .map__img--camel {
-  background: url(../../img/camel.svg);
+  background: url(./img/camel.svg);
   top: 37vh;
   left: 50vw;
 }
 
 .map__img--zebra {
-  background: url(../../img/zebra.svg);
+  background: url(./img/zebra.svg);
   top: 48vh;
   left: 50vw;
 }
 
 .map__img--gorilla {
-  background: url(../../img/gorilla.svg);
+  background: url(./img/gorilla.svg);
   top: 37vh;
   left: 45vw;
 }
 
 .map__img--lion {
-  background: url(../../img/lion.svg);
+  background: url(./img/lion.svg);
   top: 55vh;
   left: 50vw;
 }

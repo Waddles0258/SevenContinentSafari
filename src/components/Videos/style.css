@@ -14,27 +14,27 @@
 }
 
 .video__item--butterfly {
-  background: url(../../img/butterfly.png);
+  background: url(./img/butterfly.png);
   background-size: cover;
 }
 
 .video__item--eagle {
-  background: url(../../img/eagle.png);
+  background: url(./img/eagle.png);
   background-size: cover;
 }
 
 .video__item--fox {
-  background: url(../../img/fox.png);
+  background: url(./img/fox.png);
   background-size: cover;
 }
 
 .video__item--panda {
-  background: url(../../img/panda.png);
+  background: url(./img/panda.png);
   background-size: cover;
 }
 
 .video__item--turtle {
-  background: url(../../img/turtle.png);
+  background: url(./img/turtle.png);
   background-size: cover;
 }
 

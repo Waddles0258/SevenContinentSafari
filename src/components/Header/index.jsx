@@ -1,5 +1,5 @@
-import { Outlet } from 'react-router-dom';
 import '../../global.css';
+import './style.css';
 import { createBrowserRouter, RouterProvider, Link } from 'react-router-dom';
 
 export const Header = () => {
