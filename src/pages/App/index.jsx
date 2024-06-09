@@ -3,7 +3,6 @@ import React from 'react';
 import '../../global.css';
 import { Header } from '../../components/Header';
 import { Footer } from '../../components/Footer';
-import { Pexesso } from '../../components/Pexesso';
 import { MainVideo } from '../../components/MainVideo';
 import { CountDown } from '../../components/CountDown';
 import { Map } from '../../components/Map';
