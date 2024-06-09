@@ -18,7 +18,7 @@ export const Quizz = () => {
           <div className="quizz_box">
             <img
               className="box_img"
-              src="src/components/Quizz/img/Earth.svg"
+              src="/Earth.svg"
               alt="earth"
             />
           </div>

@@ -50,8 +50,11 @@ header a {
 
 .subnav {
   position: relative;
+  transition: all 0.4s;
 }
-
+.hover-orange {
+  transition: all 0.4s;
+}
 .hover-orange:hover {
   color: #FF6924;
 }
@@ -66,6 +69,7 @@ header a {
   z-index: 1;
   transition: 0.3s;
   border-radius: 15px;
+  transition: all 0.4s;
 }
 
 .subnav:hover .subnav-content {
