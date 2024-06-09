@@ -3,7 +3,7 @@ import './style.css';
 
 export const Map = () => {
   return (
-    <div className="map__container container">
+    <div id="map__container" className="map__container container hidden">
       <p className="map__title-ocean map__title-ocean--arctic">Arctic Ocean</p>
       <p className="map__title-ocean map__title-ocean--atlantic">
         Atlantic Ocean

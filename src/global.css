@@ -25,6 +25,10 @@ body {
   font-style: normal;
 }
 
+.hidden {
+  display: none;
+}
+
 .container {
   height: 100vh;
 }
