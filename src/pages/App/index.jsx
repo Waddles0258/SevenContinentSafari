@@ -7,7 +7,6 @@ import { MainVideo } from '../../components/MainVideo';
 import { CountDown } from '../../components/CountDown';
 import { Map } from '../../components/Map';
 import { Videos } from '../../components/Videos';
-import { Quizz } from '../../components/Quizz';
 import { Outlet } from 'react-router-dom';
 
 export const App = () => {
@@ -21,7 +20,6 @@ export const App = () => {
       <Map />
       <Videos />
       <Footer />
-     
     </>
   );
 };
