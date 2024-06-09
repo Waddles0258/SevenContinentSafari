@@ -17,8 +17,8 @@ export const Header = () => {
                 Quizes <i className="fa fa-caret-down"></i>
               </a>
               <div className="subnav-content hover-orange">
-                <Link to="/Quizz">Continent quizz</Link>
-                <Link to="/Quizz">Animal quizz</Link>
+                <Link to="/QuizzContinent">Continent quizz</Link>
+                <Link to="/QuizzAnimal">Animal quizz</Link>
               </div>
             </div>
             <a className="hover-orange" href="#Video">

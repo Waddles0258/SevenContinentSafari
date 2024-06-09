@@ -4,7 +4,7 @@ import { Header } from '../Header';
 import { Footer } from '../Footer';
 import { Videos } from '../Videos';
 
-export const Quizz = () => {
+export const QuizzAnimal = () => {
   return (
     <>
       <Header />
@@ -16,11 +16,7 @@ export const Quizz = () => {
         <div className="quizz_container-box">
           <p className="quizz_page-number">2 of 7</p>
           <div className="quizz_box">
-            <img
-              className="box_img"
-              src="/Earth.svg"
-              alt="earth"
-            />
+            <img className="box_img" src="/Earth.svg" alt="earth" />
           </div>
           <p className="quizz_question">
             How many oceans are there on our planet?
