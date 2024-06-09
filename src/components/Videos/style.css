@@ -13,36 +13,6 @@
   height: 100px;
 }
 
-.video__item--butterfly {
-  background: url(./img/butterfly.png);
-  background-size: cover;
-}
-
-.video__item--eagle {
-  background: url(./img/eagle.png);
-  background-size: cover;
-}
-
-.video__item--fox {
-  background: url(./img/fox.png);
-  background-size: cover;
-}
-
-.video__item--panda {
-  background: url(./img/panda.png);
-  background-size: cover;
-}
-
-.video__item--turtle {
-  background: url(./img/turtle.png);
-  background-size: cover;
-}
-
-.video__item--center {
-  width: 400px;
-  height: 200px;
-}
-
 .arrow {
   position: absolute;
   color: #fff;

@@ -8,14 +8,11 @@ export const Videos = () => {
       <div className="video__container">
         <div className="arrow-back arrow"> &lsaquo;</div>
         <div className="arrow-right arrow"> &rsaquo;</div>
-        <a href="#" className="video__item video__item--butterfly"></a>
-        <a href="#" className="video__item video__item--eagle"></a>
-        <a
-          href="#"
-          className="video__item video__item--fox video__item--center"
-        ></a>
-        <a href="#" className="video__item video__item--panda"></a>
-        <a href="#" className="video__item video__item--turtle"></a>
+        <iframe width="400" height="235" src="https://www.youtube.com/embed/EIVWtXjcfhA?si=TbntYLj6ox6h2Lk4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="400" height="235" src="https://www.youtube.com/embed/oKficmlxzaI?si=SURV1EAPqWI4f0hx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="400" height="235" src="https://www.youtube.com/embed/RO2m1EAIEkg?si=QVfTto5QraItjmPi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="400" height="235" src="https://www.youtube.com/embed/fy33YRfNlOE?si=UuF_em4htnmC4U2C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
       </div>
     </>
   );

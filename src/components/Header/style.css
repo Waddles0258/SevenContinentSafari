@@ -24,7 +24,6 @@ header a {
   justify-content: space-between;
   padding-top: 16px;
   padding-bottom: 16px;
-
 }
 
 .nav {
@@ -67,7 +66,6 @@ header a {
   padding: 24px 48px;
   font-size: 24px;
   z-index: 1;
-  transition: 0.3s;
   border-radius: 15px;
   transition: all 0.4s;
 }
@@ -78,7 +76,6 @@ header a {
   gap: 24px;
   justify-content: center;
   align-items: start;
-
 }
 
 

@@ -308,3 +308,12 @@
   width: 75px;
   height: 75px;
 }
+
+/* Animal card */
+
+.card {
+  width: 250px;
+  height: 400px;
+  background: url(./img/map_background.svg);
+}
+

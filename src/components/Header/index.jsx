@@ -6,8 +6,8 @@ export const Header = () => {
   return (
     <>
       <header>
-        <div className="header-box">
-          <a href="#Logo" className="logo"></a>
+        <div className="header-box" >
+          <Link className="logo" to="/"></Link>
           <div className="nav">
             <Link className="hover-orange" to="/Pexesso">
               Pexxesso
@@ -21,12 +21,12 @@ export const Header = () => {
                 <Link to="/Quizz">Animal quizz</Link>
               </div>
             </div>
-            <a className="hover-orange" href="#Video">
+            <Link className="hover-orange" to="/Videos">
               Video
-            </a>
-            <a className="hover-orange" href="#Contact">
+            </Link>
+            <Link className="hover-orange" to="/Footer">
               Contact
-            </a>
+            </Link>
           </div>
         </div>
       </header>
