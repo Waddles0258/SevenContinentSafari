@@ -21,9 +21,26 @@ export const HomePage = () => {
       </div>
       <Map />
       <Videos />
-      <Pexesso />
-      <Quizz />
+
       <Footer />
     </>
   );
 };
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <HomePage />,
+  },
+  {
+    path: '/Pexesso',
+    element: <Pexesso />,
+  },
+  {
+    path: '/Quizz',
+    element: <Quizz />,
+  },
+]);
+
+createRoot(document.querySelector('#root')).render(
+  <RouterProvider router={router} />,
+);
