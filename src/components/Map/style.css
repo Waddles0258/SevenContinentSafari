@@ -303,3 +303,8 @@
   height: 48px;
   background-repeat: no-repeat;
 }
+
+.map__img:hover {
+  width: 75px;
+  height: 75px;
+}
