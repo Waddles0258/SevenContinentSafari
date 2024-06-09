@@ -77,19 +77,9 @@ export const Map = () => {
       <div className="map__img map__img--killer-whale"></div>
       <div className="map__img map__img--petrel"></div>
       <div className="map__img map__img--whale"></div>
-      
-     <div className='card'>
-      <div className='card_container'>
-        <img class="img_animal" src="/sloth.svg" alt="Animal"></img>
-        <h3 className='card_title'>Sloth</h3>
-        <p className='info_animal'>If you look closely at the sloth, it immediately becomes clear why it got its name.</p>
-        <p className='info_animal'><p className='info_animal'>If you look closely at the sloth, it immediately becomes clear why it got its name.</p></p>
-      </div>
-
+  
      </div>
-    </div>
-
-   
+     
 
   );
 };

@@ -7,8 +7,9 @@ import { MainVideo } from '../../components/MainVideo';
 import { CountDown } from '../../components/CountDown';
 import { Map } from '../../components/Map';
 import { Videos } from '../../components/Videos';
-import { Quizz } from '../../components/Quizz';
+
 import { Outlet } from 'react-router-dom';
+import { AnimalCard } from '../../components/AnimaCard';
 
 export const App = () => {
   return (
@@ -19,6 +20,7 @@ export const App = () => {
         <CountDown />
       </div>
       <Map />
+      <AnimalCard/>
       <Videos />
       <Footer />
      

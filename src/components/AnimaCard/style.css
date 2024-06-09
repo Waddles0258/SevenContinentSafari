@@ -1,0 +1,33 @@
+.card {
+  width: 250px;
+  height: 400px;
+  border-radius: 15%;
+}
+
+.card_container {
+  padding: 24px;
+  border-radius: 15%;
+  background-color: #fff;
+}
+
+.img_animal {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 24px;
+}
+
+.card_title {
+  color:#02775D ;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+}
+
+.info_animal {
+  color: #02775D;
+  font-family: 'inter', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: left;
+  padding-bottom: 12px;
+  line-height: 130%;
+}
