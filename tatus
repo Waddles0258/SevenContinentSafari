@@ -1,0 +1,170 @@
+[33mcommit c51c5268b4e139b4892371ec91ce745d92f74a88[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Olga Pogrebňa <olga.pogrebnya@live.com>
+Date:   Mon Jun 10 12:32:37 2024 +0200
+
+    Change font-size
+
+[33mcommit 8e4f2fc52bfd728e61dbc89adca920acfa1395a9[m
+Merge: 34a062a 8fbe523
+Author: Olga Pogrebňa <olga.pogrebnya@live.com>
+Date:   Sun Jun 9 20:46:47 2024 +0200
+
+    Merge branch 'main' of https://github.com/Waddles0258/SevenContinentSafari
+
+[33mcommit 34a062ad729c0a138aa15b663f972583b9c2b305[m
+Author: Olga Pogrebňa <olga.pogrebnya@live.com>
+Date:   Sun Jun 9 20:37:58 2024 +0200
+
+    Add AnimalCard component
+
+[33mcommit 8fbe523331ea42d61ab882cce710881d673862e2[m
+Author: Waddles0258 <anna06491@gmail.com>
+Date:   Sun Jun 9 20:06:53 2024 +0200
+
+    Add list pexesso
+
+[33mcommit d66713a13d49a854544d99d1735323f7fdf454b1[m
+Merge: 13aaafd 8a35b12
+Author: Olga Pogrebňa <olga.pogrebnya@live.com>
+Date:   Sun Jun 9 18:04:27 2024 +0200
+
+    Merge branch 'main' of https://github.com/Waddles0258/SevenContinentSafari
+
+[33mcommit 13aaafdcecab61aec6132827919521d23c0626c5[m
+Author: Olga Pogrebňa <olga.pogrebnya@live.com>
+Date:   Sun Jun 9 17:52:49 2024 +0200
+
+    Add video
+
+[33mcommit 8a35b12ea98e84f9020f4d378dd3861514877fc7[m
+Author: Waddles0258 <anna06491@gmail.com>
+Date:   Sun Jun 9 17:39:48 2024 +0200
+
+    Quizz animals
+
+[33mcommit 0199791d154796bc98e7b8791e7b027f8e47a1cb[m
+Author: Waddles0258 <anna06491@gmail.com>
+Date:   Sun Jun 9 17:33:10 2024 +0200
+
+    Quizz continent
+
+[33mcommit 0af1b238404f08a3b4b49ac5861cf91de63d46e7[m
+Author: Olga Pogrebňa <olga.pogrebnya@live.com>
+Date:   Sun Jun 9 14:31:38 2024 +0200
+
+    Remove Earth.svg to public, change som styles
+
+[33mcommit d43e9ed0f0c030ed94bb46ad7d447c3eafce31b7[m
+Author: Waddles0258 <anna06491@gmail.com>
+Date:   Sun Jun 9 14:25:10 2024 +0200
+
+    Add animation for animals
+
+[33mcommit f41ed130c996e7081d0bf01287c9e204fec7d6f0[m
+Author: Waddles0258 <anna06491@gmail.com>
+Date:   Sun Jun 9 13:15:42 2024 +0200
+
+    Add animation for map
+
+[33mcommit c84add8bb375f42a20642257d664f97e337e66ab[m
+Author: Waddles0258 <anna06491@gmail.com>
+Date:   Sun Jun 9 10:38:24 2024 +0200
+
+    Update img structure
+
+[33mcommit a7388ac6b9ac84f5b3a53d869103a45124f30390[m
+Author: Waddles0258 <anna06491@gmail.com>
+Date:   Sun Jun 9 10:25:40 2024 +0200
+
+    Update navigation
+
+[33mcommit 9e9de1b69b9130f1f5f04cfd46aeb520cc3b5d8f[m
+Author: Waddles0258 <anna06491@gmail.com>
+Date:   Sun Jun 9 09:51:03 2024 +0200
+
+    Add navigace
+
+[33mcommit 854db5e42c7349b6c4c57fe3590d95f2982b35d4[m
+Author: Waddles0258 <anna06491@gmail.com>
+Date:   Sun Jun 9 09:34:03 2024 +0200
+
+    Add HomePage
+
+[33mcommit 133162ee869c95a61d2888bd5b7bc1ea9a13ea26[m
+Author: Olga Pogrebňa <olga.pogrebnya@live.com>
+Date:   Sat Jun 8 17:17:17 2024 +0200
+
+    Add styles to Quizz
+
+[33mcommit 10957e3ea03922606aaa2faac1eaf26873dbfc47[m
+Author: Waddles0258 <anna06491@gmail.com>
+Date:   Sat Jun 8 12:02:13 2024 +0200
+
+    Update animals, pexesso text
+
+[33mcommit 1de921e6ff7d30bb43436032fca1cf4823a10e8e[m
+Author: Waddles0258 <anna06491@gmail.com>
+Date:   Sat Jun 8 11:21:06 2024 +0200
+
+    Add components
+
+[33mcommit 01514bd7b61a824e99d0ce6216bc6921dcf1f3af[m
+Author: Waddles0258 <anna06491@gmail.com>
+Date:   Sat Jun 8 10:57:38 2024 +0200
+
+    Animals update
+
+[33mcommit 2526d183e0899e9939fd6d1f2f8a417218b489ee[m
+Author: Waddles0258 <anna06491@gmail.com>
+Date:   Sat Jun 8 09:24:58 2024 +0200
+
+    Pexesso HTML CSS
+
+[33mcommit ac796f2e555112b5459e000aa7799bd52c0e4c41[m
+Author: Waddles0258 <anna06491@gmail.com>
+Date:   Fri Jun 7 23:40:01 2024 +0200
+
+    Animals
+
+[33mcommit fe91820606827f91ff11e86cf69426ff6b07c53b[m
+Merge: 9faa5cd 672d4c0
+Author: Waddles0258 <anna06491@gmail.com>
+Date:   Fri Jun 7 19:36:22 2024 +0200
+
+    Merge branch 'main' of https://github.com/Waddles0258/SevenContinentSafari
+
+[33mcommit 9faa5cd7d64589749da6f06a0fb09e70d6ee4def[m
+Author: Waddles0258 <anna06491@gmail.com>
+Date:   Fri Jun 7 19:35:25 2024 +0200
+
+    Basic animals
+
+[33mcommit 672d4c09bbd1e778ce98c2bf899f01e6772307b1[m
+Author: Olga Pogrebňa <olga.pogrebnya@live.com>
+Date:   Fri Jun 7 19:25:26 2024 +0200
+
+    modified Header/index.jsx, global.css
+
+[33mcommit 3169803a52124debd60d6ff9146c02bdca7f0823[m
+Author: Olga Pogrebňa <olga.pogrebnya@live.com>
+Date:   Fri Jun 7 17:52:55 2024 +0200
+
+    Add new files, modified global.css, index.jsx
+
+[33mcommit dc702a6744fef61ec19de9dafcb769cfcaea7961[m
+Author: Waddles0258 <anna06491@gmail.com>
+Date:   Fri Jun 7 13:35:23 2024 +0200
+
+    Basic HTML and CSS
+
+[33mcommit e2c0116ade97a673f558d0eac8af0136cc3ea25c[m
+Author: Waddles0258 <anna06491@gmail.com>
+Date:   Wed Jun 5 11:53:06 2024 +0200
+
+    Basic Structure
+
+[33mcommit a8218dabc791571bd77bccc5a17b8b66ccd3b7a7[m
+Author: Waddles0258 <112695441+Waddles0258@users.noreply.github.com>
+Date:   Wed Jun 5 11:46:59 2024 +0200
+
+    Initial commit

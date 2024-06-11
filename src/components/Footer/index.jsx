@@ -3,7 +3,7 @@ import './style.css';
 
 export const Footer = () => {
   return (
-    <footer>
+    <footer id='cnt'>
       <p className="footer-title">Contact us</p>
     </footer>
   );

@@ -1,7 +1,7 @@
 .card {
   width: 300px;
   height: 400px;
-  border-radius: 15%;
+  border-radius: 15px;
 }
 
 .card_container {

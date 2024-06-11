@@ -128,6 +128,25 @@ export const QuizzContinent = () => {
           </div>
         </div>
       </div>
+
+      <div className="answer_rslt">
+        <div className='box_rslt'>
+       <img className="icon_smile" alt="smile" src="/smileperfect.svg" />
+        <div className="rslt">
+          <img className="icon_checked" src="/checked.svg" />
+          <p className="text_rslt">Correct!</p>
+        </div></div>
+      </div>
+
+      <div className="answer_rslt incorrect">
+        <div className='box_rslt'>
+       <img className="icon_smile" alt="smile" src="/smilegood.svg" />
+        <div className="rslt">
+          <img className="icon_checked" src="/incorrect.svg" />
+          <p className="text_rslt">Incorrect!</p>
+        </div></div>
+      </div>
+
       <Videos />
       <Footer />
     </>

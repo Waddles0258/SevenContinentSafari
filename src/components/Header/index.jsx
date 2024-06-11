@@ -21,12 +21,12 @@ export const Header = () => {
                 <Link to="/QuizzAnimal">Animal quizz</Link>
               </div>
             </div>
-            <Link className="hover-orange" to="/Videos">
+            <a href='#vt' className="hover-orange" >
               Video
-            </Link>
-            <Link className="hover-orange" to="/Footer">
+            </a>
+            <a href="#cnt" className="hover-orange" >
               Contact
-            </Link>
+            </a>
           </div>
         </div>
       </header>

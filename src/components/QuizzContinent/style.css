@@ -30,6 +30,8 @@
   margin: 0 auto;
   height: 1200px;
   background: #00B88F;
+ 
+  
 }
 
 .quizz_page-number {
@@ -43,8 +45,8 @@
 
 .quizz_box {
   border-radius: 15px;
-  width: 464px;
-  height: 464px;
+  width: 450px;
+  height: 450px;
   background: #fff;
   margin: 0 auto;
   margin-bottom: 50px;
@@ -125,3 +127,44 @@
 .next:hover {
   background-color: #19a8fb;
 }
+
+.answer_rslt {
+  width: 450px;
+  height: 450px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.rslt {
+  display: flex;
+  justify-content: center;
+}
+
+.text_rslt {
+  font-size: 40px;
+}
+
+.icon_smile {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.box_rslt {
+  display: flex;
+  flex-direction: column;
+}
+
+.answer_rslt  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.answer_rslt.incorrect {
+  display: none;
+}
+
