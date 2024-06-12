@@ -51,10 +51,13 @@ header a {
   position: relative;
   transition: all 0.4s;
 }
-.hover-orange {
+.hover-orange:link,
+.hover-orange:visited
+ {
   transition: all 0.4s;
 }
-.hover-orange:hover {
+.hover-orange:hover, 
+.hover-orange:active {
   color: #FF6924;
 }
 
@@ -62,7 +65,7 @@ header a {
   display: none;
   position: absolute;
   left: 0px;
-  background-color: #FF6924;
+  background-color: hsl(19, 100%, 57%);
   padding: 24px 48px;
   font-size: 24px;
   z-index: 1;
@@ -78,12 +81,17 @@ header a {
   align-items: start;
 }
 
-
-
 .logo {
   background: url(./img/Logo.svg) no-repeat;
   background-size: cover;
   width: 150px;
   height: 136px;
   display: block;
+}
+
+.sbn-cnt_link {
+ transition: all 0.4s;
+}
+.sbn-cnt_link:hover {
+color: hsl(19, 90%, 35%);
 }
