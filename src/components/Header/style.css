@@ -84,8 +84,8 @@ header a {
 .logo {
   background: url(./img/Logo.svg) no-repeat;
   background-size: cover;
-  width: 150px;
-  height: 136px;
+  width: 135px;
+  height: 121px;
   display: block;
 }
 
@@ -95,3 +95,4 @@ header a {
 .sbn-cnt_link:hover {
 color: hsl(19, 90%, 35%);
 }
+

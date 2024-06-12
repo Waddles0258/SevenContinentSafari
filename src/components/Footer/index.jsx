@@ -18,7 +18,7 @@ export const Footer = () => {
       <p className="footer-title">Contact us</p>
       <div className="footer_info">
         <Link to="/">
-          <img className="footer_logo" src="/Earth.svg" />
+          <img className="footer_logo" src="/Logo.svg" />
         </Link>
         <div className="footer_content">
           <p className="footer_text">
