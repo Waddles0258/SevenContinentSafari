@@ -29,14 +29,7 @@ const router = createBrowserRouter([
     element: <QuizzAnimal />,
   },
 
-  /*{
-    path: '/Video',
-    element: <Videos />,
-  },
-
- { path: '/Footer',
-  element: <Footer />,
-},*/
+  
 ]);
 
 createRoot(document.querySelector('#root')).render(

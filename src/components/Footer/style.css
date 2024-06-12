@@ -10,11 +10,53 @@ footer {
   color: #fff;
   text-align: center;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 24px;
   margin: 0;
-  transition: all 0.4s;
+  
 }
 
-.footer-title:hover {
-  color: #FF6924;
+
+
+.footer_content {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: "inter";
+  color: #fff;
+  
+  gap: 48px;
+}
+
+.mail {
+  width: 30px;
+  height: 30px;
+  transition:0.5s;
+}
+
+.mail:hover {
+  transform: scale(1.2);
+}
+
+.footer_link {
+  text-decoration: none;
+}
+
+.copyright {
+  font-family: "inter";
+  color: #fff;
+  font-size: 12px;
+  padding-bottom: 32px;
+}
+
+.footer_info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:24px;
+  margin-bottom: 24px;
+}
+
+.footer_logo {
+  width: 102px;
+  height:102px ;
 }
