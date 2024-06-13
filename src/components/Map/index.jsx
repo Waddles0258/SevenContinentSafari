@@ -1,5 +1,6 @@
 import '../../global.css';
 import './style.css';
+import { AnimalCard } from '../AnimaCard';
 
 export const Map = () => {
   return (
@@ -21,7 +22,10 @@ export const Map = () => {
       <p className="map__title-continent map__title-continent--europe">
         Europa
       </p>
-      <div className="map__img map__img--squirrel"></div>
+      <div className="map__img--squirrel animal__container">
+        <div className="map__img map__img--squirrel"></div>
+        <AnimalCard />
+      </div>
       <div className="map__img map__img--fox"></div>
       <div className="map__img map__img--hare"></div>
       <p className="map__title-continent map__title-continent--asia">Asia</p>
@@ -77,9 +81,6 @@ export const Map = () => {
       <div className="map__img map__img--killer-whale"></div>
       <div className="map__img map__img--petrel"></div>
       <div className="map__img map__img--whale"></div>
-  
-     </div>
-     
-
+    </div>
   );
 };
