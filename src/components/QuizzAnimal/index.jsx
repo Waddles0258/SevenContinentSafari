@@ -15,6 +15,7 @@ export const QuizzAnimal = () => {
       question: 'On what continent does Macaw parrot live?',
       right: 'South America',
       wrong: 'Asia',
+      img: '/parrot.svg',
       mark: 0,
     },
     {
@@ -22,6 +23,7 @@ export const QuizzAnimal = () => {
       question: 'On what continent does Emperor penguin live?',
       right: 'Antarctica',
       wrong: 'Africa',
+      img: '/penguin.svg',
       mark: 0,
     },
     {
@@ -29,6 +31,7 @@ export const QuizzAnimal = () => {
       question: 'On what continent does kangaroo live?',
       right: 'Australia',
       wrong: 'Antarctica',
+      img: '/kangaroo.svg',
       mark: 0,
     },
     {
@@ -36,6 +39,7 @@ export const QuizzAnimal = () => {
       question: 'On what continent does panda live?',
       right: 'Asia',
       wrong: 'Africa',
+      img: '/panda.svg',
       mark: 0,
     },
     {
@@ -43,6 +47,7 @@ export const QuizzAnimal = () => {
       question: 'On what continent does lion live?',
       right: 'Africa',
       wrong: 'Antarctica',
+      img: '/lion.svg',
       mark: 0,
     },
     {
@@ -50,6 +55,7 @@ export const QuizzAnimal = () => {
       question: 'On what continent does fox live?',
       right: 'Europa',
       wrong: 'Asia',
+      img: '/fox.svg',
       mark: 0,
     },
     {
@@ -57,6 +63,7 @@ export const QuizzAnimal = () => {
       question: 'On what continent does fox live?',
       right: 'North America',
       wrong: 'Europa',
+      img: '/fox.svg',
       mark: 0,
     },
   ]);
@@ -90,13 +97,14 @@ export const QuizzAnimal = () => {
         <div className="quizz_container-box">
           <p className="quizz_page-number">{continents[page].number} of 7</p>
           <div className="quizz_box">
-            <img className="box_img" src="/Earth.svg" alt="earth" />
+            <img className="box_img" src={continents[page].img} alt="earth" />
           </div>
           <p className="quizz_question">{continents[page].question}</p>
           <div
             onClick={() => {
               handleRightAnswerClick();
               setPage(page < 6 ? page + 1 : result());
+              document.querySelector('.correct').classList.remove('hidden');
             }}
             className="quizz-field"
           >
@@ -106,6 +114,7 @@ export const QuizzAnimal = () => {
             onClick={() => {
               handleWrongAnswerClick();
               setPage(page < 6 ? page + 1 : result());
+              document.querySelector('.incorrect').classList.remove('hidden');
             }}
             className="quizz-field quizz-field--second"
           >
@@ -113,19 +122,46 @@ export const QuizzAnimal = () => {
           </div>
           <div className="quizz_btns">
             <a
-              onClick={() => setPage(page > 0 ? page - 1 : 0)}
+              onClick={() => {
+                setPage(page > 0 ? page - 1 : 0);
+                document.querySelector('.correct').classList.add('hidden');
+                document.querySelector('.incorrect').classList.add('hidden');
+              }}
               href="#"
               className="previous"
             >
               &laquo; Previous
             </a>
             <a
-              onClick={() => setPage(page < 6 ? page + 1 : result())}
+              onClick={() => {
+                setPage(page < 6 ? page + 1 : result());
+                document.querySelector('.correct').classList.add('hidden');
+                document.querySelector('.incorrect').classList.add('hidden');
+              }}
               href="#"
               className="next"
             >
               Next &raquo;
             </a>
+          </div>
+        </div>
+        <div className="answer_rslt correct hidden">
+          <div className="box_rslt">
+            <img className="icon_smile" alt="smile" src="/smileperfect.svg" />
+            <div className="rslt">
+              <img className="icon_checked" src="/checked.svg" />
+              <p className="text_rslt">Correct!</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="answer_rslt incorrect hidden">
+          <div className="box_rslt">
+            <img className="icon_smile" alt="smile" src="/smilegood.svg" />
+            <div className="rslt">
+              <img className="icon_checked" src="/incorrect.svg" />
+              <p className="text_rslt">Incorrect!</p>
+            </div>
           </div>
         </div>
       </div>
