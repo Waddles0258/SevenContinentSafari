@@ -96,6 +96,7 @@ export const QuizzContinent = () => {
             onClick={() => {
               handleRightAnswerClick();
               setPage(page < 6 ? page + 1 : result());
+              document.querySelector('.correct').classList.remove('hidden');
             }}
             className="quizz-field"
           >
@@ -105,6 +106,7 @@ export const QuizzContinent = () => {
             onClick={() => {
               handleWrongAnswerClick();
               setPage(page < 6 ? page + 1 : result());
+              document.querySelector('.incorrect').classList.remove('hidden');
             }}
             className="quizz-field quizz-field--second"
           >
@@ -112,14 +114,22 @@ export const QuizzContinent = () => {
           </div>
           <div className="quizz_btns">
             <a
-              onClick={() => setPage(page > 0 ? page - 1 : 0)}
+              onClick={() => {
+                setPage(page > 0 ? page - 1 : 0);
+                document.querySelector('.correct').classList.add('hidden');
+                document.querySelector('.incorrect').classList.add('hidden');
+              }}
               href="#"
               className="previous"
             >
               &laquo; Previous
             </a>
             <a
-              onClick={() => setPage(page < 6 ? page + 1 : result())}
+              onClick={() => {
+                setPage(page < 6 ? page + 1 : result());
+                document.querySelector('.correct').classList.add('hidden');
+                document.querySelector('.incorrect').classList.add('hidden');
+              }}
               href="#"
               className="next"
             >
@@ -127,24 +137,25 @@ export const QuizzContinent = () => {
             </a>
           </div>
         </div>
-      </div>
+        <div className="answer_rslt correct hidden">
+          <div className="box_rslt">
+            <img className="icon_smile" alt="smile" src="/smileperfect.svg" />
+            <div className="rslt">
+              <img className="icon_checked" src="/checked.svg" />
+              <p className="text_rslt">Correct!</p>
+            </div>
+          </div>
+        </div>
 
-      <div className="answer_rslt">
-        <div className='box_rslt'>
-       <img className="icon_smile" alt="smile" src="/smileperfect.svg" />
-        <div className="rslt">
-          <img className="icon_checked" src="/checked.svg" />
-          <p className="text_rslt">Correct!</p>
-        </div></div>
-      </div>
-
-      <div className="answer_rslt incorrect">
-        <div className='box_rslt'>
-       <img className="icon_smile" alt="smile" src="/smilegood.svg" />
-        <div className="rslt">
-          <img className="icon_checked" src="/incorrect.svg" />
-          <p className="text_rslt">Incorrect!</p>
-        </div></div>
+        <div className="answer_rslt incorrect hidden">
+          <div className="box_rslt">
+            <img className="icon_smile" alt="smile" src="/smilegood.svg" />
+            <div className="rslt">
+              <img className="icon_checked" src="/incorrect.svg" />
+              <p className="text_rslt">Incorrect!</p>
+            </div>
+          </div>
+        </div>
       </div>
 
       <Videos />
