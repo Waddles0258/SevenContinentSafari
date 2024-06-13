@@ -11,6 +11,7 @@ import { Videos } from '../../components/Videos';
 import { Link, Outlet } from 'react-router-dom';
 import { AnimalCard } from '../../components/AnimaCard';
 import { QuizzLastPage } from '../../components/QuizzLastPage';
+import { ArrowUp } from '../../components/ArrowUp';
 
 export const App = () => {
   return (
@@ -23,6 +24,7 @@ export const App = () => {
       <Map />
       <Videos />
       <Footer />
+      <ArrowUp/>
     </>
   );
 };

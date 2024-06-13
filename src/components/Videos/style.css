@@ -31,3 +31,12 @@
 .arrow-right {
   right: 5vw;
 }
+
+.video {
+  transition: 0.4s;
+}
+.video:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}

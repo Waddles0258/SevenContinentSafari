@@ -4,6 +4,7 @@ import { Header } from '../Header';
 import { Footer } from '../Footer';
 import { Videos } from '../Videos';
 import { useState } from 'react';
+import { ArrowUp } from '../ArrowUp';
 
 export const QuizzAnimal = () => {
   const [page, setPage] = useState(0);
@@ -130,6 +131,7 @@ export const QuizzAnimal = () => {
       </div>
       <Videos />
       <Footer />
+      <ArrowUp/>
     </>
   );
 };

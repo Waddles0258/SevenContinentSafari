@@ -8,7 +8,7 @@ export const Videos = () => {
       <div className="video__container">
         <div className="arrow-back arrow"> &lsaquo;</div>
         <div className="arrow-right arrow"> &rsaquo;</div>
-        <iframe
+        <iframe className="video"
           width="350"
           height="205"
           src="https://www.youtube.com/embed/EIVWtXjcfhA?si=TbntYLj6ox6h2Lk4"
@@ -18,7 +18,7 @@ export const Videos = () => {
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
         ></iframe>
-        <iframe
+        <iframe className="video"
           width="350"
           height="205"
           src="https://www.youtube.com/embed/oKficmlxzaI?si=SURV1EAPqWI4f0hx"
@@ -28,7 +28,7 @@ export const Videos = () => {
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
         ></iframe>
-        <iframe
+        <iframe className="video"
           width="350"
           height="205"
           src="https://www.youtube.com/embed/RO2m1EAIEkg?si=QVfTto5QraItjmPi"
@@ -38,7 +38,7 @@ export const Videos = () => {
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
         ></iframe>
-        <iframe
+        <iframe className="video"
           width="350"
           height="205"
           src="https://www.youtube.com/embed/fy33YRfNlOE?si=UuF_em4htnmC4U2C"

@@ -4,6 +4,7 @@ import { Header } from '../Header';
 import { Footer } from '../Footer';
 import { Videos } from '../Videos';
 import { useState } from 'react';
+import { ArrowUp } from '../ArrowUp';
 
 export const QuizzContinent = () => {
   const [page, setPage] = useState(0);
@@ -149,6 +150,7 @@ export const QuizzContinent = () => {
 
       <Videos />
       <Footer />
+      <ArrowUp/>
     </>
   );
 };
