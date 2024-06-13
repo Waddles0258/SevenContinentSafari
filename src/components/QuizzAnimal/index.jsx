@@ -8,6 +8,8 @@ import { ArrowUp } from '../ArrowUp';
 
 export const QuizzAnimal = () => {
   const [page, setPage] = useState(0);
+  const [totalSum, setTotalSum] = useState(0);
+  let sum;
 
   const [continents, setContinents] = useState([
     {
@@ -15,6 +17,14 @@ export const QuizzAnimal = () => {
       question: 'On what continent does Macaw parrot live?',
       right: 'South America',
       wrong: 'Asia',
+      img: '/parrot.svg',
+      mark: 0,
+    },
+    {
+      number: '',
+      question: '',
+      right: '',
+      wrong: '',
       img: '/parrot.svg',
       mark: 0,
     },
@@ -27,11 +37,27 @@ export const QuizzAnimal = () => {
       mark: 0,
     },
     {
+      number: '',
+      question: '',
+      right: '',
+      wrong: '',
+      img: '/parrot.svg',
+      mark: 0,
+    },
+    {
       number: '3',
       question: 'On what continent does kangaroo live?',
       right: 'Australia',
       wrong: 'Antarctica',
       img: '/kangaroo.svg',
+      mark: 0,
+    },
+    {
+      number: '',
+      question: '',
+      right: '',
+      wrong: '',
+      img: '/parrot.svg',
       mark: 0,
     },
     {
@@ -43,6 +69,14 @@ export const QuizzAnimal = () => {
       mark: 0,
     },
     {
+      number: '',
+      question: '',
+      right: '',
+      wrong: '',
+      img: '/parrot.svg',
+      mark: 0,
+    },
+    {
       number: '5',
       question: 'On what continent does lion live?',
       right: 'Africa',
@@ -51,11 +85,27 @@ export const QuizzAnimal = () => {
       mark: 0,
     },
     {
+      number: '',
+      question: '',
+      right: '',
+      wrong: '',
+      img: '/parrot.svg',
+      mark: 0,
+    },
+    {
       number: '6',
       question: 'On what continent does fox live?',
       right: 'Europa',
       wrong: 'Asia',
       img: '/fox.svg',
+      mark: 0,
+    },
+    {
+      number: '',
+      question: '',
+      right: '',
+      wrong: '',
+      img: '/parrot.svg',
       mark: 0,
     },
     {
@@ -68,12 +118,19 @@ export const QuizzAnimal = () => {
     },
   ]);
   const result = () => {
-    let sum = 0;
+    sum = 0;
     continents.forEach((prvek) => {
       sum += prvek.mark;
     });
-    alert(sum);
-    return 6;
+    setTotalSum(sum);
+    return 12;
+  };
+  const restart = () => {
+    const updatedContinents = [...continents];
+    updatedContinents.forEach((prvek) => {
+      prvek.mark = 0;
+      setContinents(updatedContinents);
+    });
   };
   const handleRightAnswerClick = () => {
     const updatedContinents = [...continents];
@@ -103,7 +160,7 @@ export const QuizzAnimal = () => {
           <div
             onClick={() => {
               handleRightAnswerClick();
-              setPage(page < 6 ? page + 1 : result());
+              setPage(page < 12 ? page + 1 : result());
               document.querySelector('.correct').classList.remove('hidden');
             }}
             className="quizz-field"
@@ -113,7 +170,7 @@ export const QuizzAnimal = () => {
           <div
             onClick={() => {
               handleWrongAnswerClick();
-              setPage(page < 6 ? page + 1 : result());
+              setPage(page < 12 ? page + 1 : result());
               document.querySelector('.incorrect').classList.remove('hidden');
             }}
             className="quizz-field quizz-field--second"
@@ -134,9 +191,17 @@ export const QuizzAnimal = () => {
             </a>
             <a
               onClick={() => {
-                setPage(page < 6 ? page + 1 : result());
+                setPage(page < 12 ? page + 1 : result());
                 document.querySelector('.correct').classList.add('hidden');
                 document.querySelector('.incorrect').classList.add('hidden');
+                if (page === 12) {
+                  document
+                    .querySelector('.quizzLP_container')
+                    .classList.remove('hidden');
+                  document
+                    .querySelector('.quizz_container-box')
+                    .classList.add('hidden');
+                }
               }}
               href="#"
               className="next"
@@ -165,9 +230,38 @@ export const QuizzAnimal = () => {
           </div>
         </div>
       </div>
+      <div className="quizzLP_container hidden">
+        <div className="quizzLP_container-box">
+          <div className="quizzLP_box">
+            <div className="box_cnt">
+              <p className="lst-page_header">
+                Your score is {totalSum} out of 7
+              </p>
+              <p className="lst-page_text">
+                {totalSum < 7
+                  ? 'Nice work! Take another chilly trip and go for a better score.'
+                  : 'That`s a perfect score, great job!'}
+                <br />
+                <strong>Play again!</strong>
+              </p>
+              <div
+                onClick={() => {
+                  restart();
+                  window.location.reload();
+                }}
+                className="quizz_btn"
+              >
+                <a href="#" className="play-again">
+                  Play again
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <Videos />
       <Footer />
-      <ArrowUp/>
+      <ArrowUp />
     </>
   );
 };

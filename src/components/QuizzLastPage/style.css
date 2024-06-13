@@ -1,8 +1,7 @@
 .quizzLP_container {
-  max-width: 60%;
+  width: 50vw;
   margin: 0 auto;
   margin-bottom: 100px;
-  
 }
 
 .quizzLP_container-box {
@@ -12,8 +11,8 @@
   height: 750px;
   background: #00B88F;
   display: flex;
- align-items: center;
- margin-bottom: 100px;
+  align-items: center;
+  margin-bottom: 100px;
 }
 
 .quizzLP_box {
@@ -27,8 +26,8 @@
 }
 
 .box_cnt {
-padding-left: 40px;
-padding-right: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .lst-page_header {
@@ -37,7 +36,7 @@ padding-right: 40px;
   font-weight: 400;
   font-size: 34px;
   text-align: center;
-  margin-bottom: 25px ;
+  margin-bottom: 25px;
 }
 
 .lst-page_text {
@@ -45,8 +44,8 @@ padding-right: 40px;
   font-family: 'inter';
   font-size: 24px;
   text-align: center;
-  margin-bottom:50px ;
- 
+  margin-bottom: 50px;
+
 }
 
 .quizzLP_btn {
@@ -70,4 +69,8 @@ padding-right: 40px;
 
 .play-again:hover {
   background-color: #19a8fb;
+}
+
+.hidden {
+  display: none;
 }
