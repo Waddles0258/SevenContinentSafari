@@ -15,7 +15,7 @@ a {
 }
 
 body {
-  
+
   padding: 0;
   margin: 0;
   background: url(./img/map_background.svg);
@@ -42,4 +42,13 @@ h2 {
 .wrapper {
   width: 80%;
   margin: 0 auto;
+}
+
+.arrow_up {
+  background-image: url(/arrow.svg);
+  background-repeat: no-repeat;
+  position: fixed;
+  bottom: 50 px;
+  right: 50 px;
+ 
 }
