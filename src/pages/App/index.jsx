@@ -8,8 +8,9 @@ import { CountDown } from '../../components/CountDown';
 import { Map } from '../../components/Map';
 import { Videos } from '../../components/Videos';
 
-import { Outlet } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 import { AnimalCard } from '../../components/AnimaCard';
+import { QuizzLastPage } from '../../components/QuizzLastPage';
 
 export const App = () => {
   return (
