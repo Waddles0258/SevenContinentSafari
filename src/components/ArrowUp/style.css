@@ -10,7 +10,7 @@
 }
 
 .arrow-up:hover {
-  background-image: url(/arrow_smile.svg);
+  background-image: url(/Arrow_smile.svg);
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
