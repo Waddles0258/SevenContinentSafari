@@ -31,7 +31,8 @@ footer {
   transition:0.5s;
 }
 
-.mail:hover {
+.mail:hover,
+.mail:focus {
   transform: scale(1.2);
 }
 

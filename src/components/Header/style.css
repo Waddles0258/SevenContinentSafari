@@ -56,7 +56,8 @@ header a {
  {
   transition: all 0.4s;
 }
-.hover-orange:hover, 
+.hover-orange:hover,
+.hover-orange:focus,
 .hover-orange:active {
   color: #FF6924;
 }
@@ -92,6 +93,7 @@ header a {
 .sbn-cnt_link {
  transition: all 0.4s;
 }
+.sbn-cnt_link:focus,
 .sbn-cnt_link:hover {
 color: hsl(19, 90%, 35%);
 }

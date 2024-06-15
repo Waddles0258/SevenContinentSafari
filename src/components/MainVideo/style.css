@@ -1,3 +1,10 @@
+@media (max-width: 944px) {
+  .main__text {
+    font-size: 16px;
+    line-height: 130%;
+  }
+  }
+
 .video__container {
   width: 100vw;
   display: flex;
@@ -8,19 +15,18 @@
 
 .main__video {
   display: block;
-  width: 925px;
+  min-width: 80%;
   height: 510px;
   margin: 0 auto;
   border-radius: 15px;
-
-
   margin-bottom: 50px;
 }
 
 .main__text {
   font-weight: 500;
   font-size: 20px;
-  line-height: 160%;
+  line-height: 150%;
   color: #02775D;
   font-family: "Inter", sans-serif;
 }
+

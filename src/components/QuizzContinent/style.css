@@ -1,3 +1,18 @@
+@media (max-width: 944px) {
+  .quizz_title {
+    font-size: 28px;
+    line-height: 150%;
+  }
+
+  .quizz_container-box {
+    padding-top: 0;
+  }
+
+  .quizz_question {
+    font-size: 18px;
+  }
+}
+
 .quizz_title {
   font-family: 'inter', sans-serif;
   font-weight: 500;
@@ -11,8 +26,8 @@
 .quizz_subtitle {
   font-family: 'inter', sans-serif;
   font-weight: 500;
-  font-size: 36px;
-  line-height: 150%;
+  font-size: 28px;
+  line-height: 120%;
   color: #02775D;
   text-align: left;
   margin-bottom: 50px;
@@ -31,7 +46,7 @@
   border-radius: 15px;
   margin: 0 auto;
   background: #00B88F;
-
+  padding-top: 35px;
 
 }
 
@@ -66,7 +81,7 @@
   font-size: 24px;
   color: #fff;
   font-family: 'inter', sans-serif;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 .quizz-field {
@@ -81,14 +96,12 @@
   transition: all 0.4s;
 
 }
-
+.quizz-field:focus,
 .quizz-field:hover {
   background-color: #FF6924;
+  cursor: pointer;
 }
 
-.quizz-field--hover {
-  background-color: #FF6924;
-}
 
 .answer {
   font-weight: 400;
@@ -100,14 +113,16 @@
 
 .quizz-field.quizz-field--second {
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 
 .quizz_btns {
+  max-width: 70%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-bottom: 30px;
+  margin: 0 auto;
 }
 
 .previous,
@@ -115,7 +130,7 @@
   font-family: 'inter', sans-serif;
   border: 3px solid #fff;
   border-radius: 100px;
-  padding: 15px 56px;
+  padding: 10px 30px;
   background: #37B5FF;
   text-decoration: none;
   color: #fff;
@@ -124,9 +139,12 @@
   transition: all 0.4s;
 }
 
+.previous:focus,
+.next:focus,
 .previous:hover,
 .next:hover {
   background-color: #19a8fb;
+  cursor: pointer;
 }
 
 /* Card result answer */
@@ -136,6 +154,7 @@
   height: 450px;
   background-color: #fff;
   border-radius: 15px;
+  border: 4px solid #FF6924;
 }
 
 .rslt {
