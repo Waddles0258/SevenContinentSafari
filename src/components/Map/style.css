@@ -1,7 +1,7 @@
 /* @media */
 
-@media (max-width: 944px) {
-/* Ocean */
+/*@media all and (max-width: 944px) {
+/* Ocean 
 .map__title-ocean--southern {
   left: 45vw;
   bottom: 38vh;
@@ -12,11 +12,8 @@
 }
 
 
-/* Australia */
-.map__title-continent--australia {
-  right: 23vw;
-  bottom: 43vh;
-}
+/* Australia 
+
 .map__img--koala {
   background: url(./img/koala.svg);
   bottom: 40vh;
@@ -32,7 +29,7 @@
   bottom: 46vh;
 }
 
-/* Antarctica */
+/* Antarctica 
 .map__title-continent--antarctica {
   right: 45vw;
   bottom: 28vh;
@@ -71,7 +68,7 @@
   bottom: 17vh;
   left: 52vw;
 }
- /* Africa */
+ /* Africa 
  .map__title-continent--africa {
   left: 44vw;
   top: 45vh;
@@ -97,7 +94,7 @@
   left: 50vw;
 }
 
- /* Europa */
+ /* Europa 
  .map__title-continent--europe {
   top: 27vh;
   right: 42vw;
@@ -118,7 +115,7 @@
   left: 53vw;
 }
 
-/* Asia */
+/* Asia 
 .map__title-continent--asia {
   top: 29vh;
   right: 33vw;
@@ -149,7 +146,7 @@
   right: 25vw;
 }
 
-/* North America */
+/* North America 
 .map__img--polar-bear {
   background: url(./img/polar_bear.svg);
   left: 35vw;
@@ -193,7 +190,7 @@
   left: 33vw;
 }
 
-/* South America */
+/* South America 
 .map__container .map__img--cingulata {
   background: url(./img/сingulata.svg)no-repeat;
   top: 48vh;
@@ -201,7 +198,7 @@
   width: 65px;
 }
 
-}
+}*/
 
 /*-------------------------------------------*/
 .map__container {
@@ -248,10 +245,23 @@
   right: 34vw;
 }
 
+@media (max-width: 944px) {
+  .map__title-ocean--indian {
+    top: 48vh;
+    right: 32vw;
+  }
+}
+
 .map__title-ocean--southern {
   left: 45vw;
   bottom: 33vh;
 }
+
+@media  (max-width: 944px) {
+  .map__title-ocean--southern {
+    left: 45vw;
+    bottom: 38vh;
+  }}
 
 .map__title-continent {
   position: absolute;
@@ -265,11 +275,23 @@
   top: 20vh;
   right: 45vw;
 }
+@media (max-width: 944px){
+  .map__title-continent--europe {
+    top: 27vh;
+    right: 42vw;
+  }
+}
 
 
 .map__title-continent--asia {
   top: 22vh;
   right: 33vw;
+}
+@media (max-width: 944px){
+  .map__title-continent--asia {
+    top: 29vh;
+    right: 33vw;
+  }
 }
 
 .map__title-continent--s-america {
@@ -286,22 +308,47 @@
   left: 50vw;
   top: 45vh;
 }
+@media (max-width: 944px){
+  .map__title-continent--africa {
+    left: 44vw;
+    top: 45vh;
+  }
+}
 
 .map__title-continent--australia {
   right: 23vw;
   bottom: 40vh;
 }
 
+@media (max-width: 944px) {
+  .map__title-continent--australia {
+    right: 23vw;
+    bottom: 46vh;
+  }
+}
+
 .map__title-continent--antarctica {
   right: 45vw;
   bottom: 19vh;
 }
-
+@media (max-width: 944px){
+  .map__title-continent--antarctica {
+    right: 45vw;
+    bottom: 28vh;
+  }
+}
 
 .map__img--squirrel {
   top: 12vh;
   left: 50vw;
   background: url(./img/squirrel.svg);
+}
+@media (max-width: 944px){
+  .map__img--squirrel {
+    top: 20vh;
+    left: 50vw;
+    background: url(./img/squirrel.svg);
+  }
 }
 
 .map__img--fox {
@@ -309,11 +356,25 @@
   top: 22vh;
   left: 47vw;
 }
+@media (max-width: 944px){
+  .map__img--fox {
+    background: url(./img/fox.svg);
+    top: 28vh;
+    left: 47vw;
+  }
+}
 
 .map__img--hare {
   background: url(./img/hare.svg);
   top: 23vh;
   left: 53vw;
+}
+@media (max-width: 944px){
+  .map__img--hare {
+    background: url(./img/hare.svg);
+    top: 30vh;
+    left: 53vw;
+  }
 }
 
 /* South America */
@@ -335,6 +396,15 @@
   left: 30vw;
   width: 65px;
 }
+@media (max-width: 944px){
+  .map__container .map__img--cingulata {
+    background: url(./img/сingulata.svg)no-repeat;
+    top: 48vh;
+    left: 25vw;
+    width: 65px;
+  }
+  
+}
 
 .map__img--sloth {
   background: url(./img/sloth.svg);
@@ -349,12 +419,28 @@
   bottom: 19vh;
   left: 50vw;
 }
+@media (max-width: 944px){
+  .map__container .map__img--seals {
+    width: 55px;
+    background: url(./img/seal.svg)no-repeat;
+    bottom: 30vh;
+    left: 50vw;
+  }
+}
 
 .map__container .map__img--walrus {
   width: 55px;
   background: url(./img/walrus.svg)no-repeat;
   bottom: 13vh;
   left: 44vw;
+}
+@media (max-width: 944px) {
+  .map__container .map__img--walrus {
+    width: 55px;
+    background: url(./img/walrus.svg)no-repeat;
+    bottom: 23vh;
+    left: 42vw;
+  }
 }
 
 .map__container .map__img--killer-whale {
@@ -363,11 +449,25 @@
   bottom: 5vh;
   left: 45vw;
 }
-
+@media (max-width: 944px){
+  .map__container .map__img--killer-whale {
+    width: 55px;
+    background: url(./img/killer_whale.svg)no-repeat;
+    bottom: 15vh;
+    left: 45vw;
+  }
+}
 .map__img--petrel {
   background: url(./img/petrel.svg);
   bottom: 12vh;
   left: 56vw;
+}
+@media (max-width: 944px){
+  .map__img--petrel {
+    background: url(./img/petrel.svg);
+    bottom: 18vh;
+    left: 55vw;
+  }
 }
 
 .map__container .map__img--whale {
@@ -376,17 +476,40 @@
   bottom: 20vh;
   left: 57vw;
 }
+@media (max-width: 944px){
+  .map__container .map__img--whale {
+    width: 55px;
+    background: url(./img/whale.svg)no-repeat;
+    bottom: 25vh;
+    left: 55vw;
+  }
+}
 
 .map__img--penguin {
   background: url(./img/penguin.svg);
   bottom: 7vh;
   left: 52vw;
 }
+@media (max-width: 944px){
+  .map__img--penguin {
+    background: url(./img/penguin.svg);
+    bottom: 17vh;
+    left: 52vw;
+  } 
+}
+
 /*North America*/
 .map__img--polar-bear {
   background: url(./img/polar_bear.svg);
   left: 30vw;
   top: 18vh;
+}
+@media (max-width: 944px){
+  .map__img--polar-bear {
+    background: url(./img/polar_bear.svg);
+    left: 35vw;
+    top: 18vh;
+  }
 }
 
 .map__img--grizzly {
@@ -394,11 +517,25 @@
   top: 17vh;
   left: 20vw;
 }
+@media (max-width: 944px){
+  .map__img--grizzly {
+    background: url(./img/grizzly.svg);
+    top: 27vh;
+    left: 20vw;
+  }
+}
 
 .map__img--coyote {
   background: url(./img/coyote.svg);
   top: 10vh;
   left: 25vw;
+}
+@media (max-width: 944px){
+  .map__img--coyote {
+    background: url(./img/coyote.svg);
+    top: 15vh;
+    left: 29vw;
+  }
 }
 
 .map__img--buffalo {
@@ -406,12 +543,26 @@
   top: 20vh;
   left: 25vw;
 }
-
+@media (max-width: 944px){
+  .map__img--buffalo {
+    background: url(./img/buffalo.svg);
+    top: 20vh;
+    left: 23vw;
+  }
+}
 .map__container .map__img--crocodile {
   width: 80px;
   background: url(./img/crocodile.svg)no-repeat;
   top: 36vh;
   left: 25vw;
+}
+@media (max-width: 944px){
+  .map__container .map__img--crocodile {
+    width: 80px;
+    background: url(./img/crocodile.svg)no-repeat;
+    top: 39vh;
+    left: 25vw;
+  }
 }
 
 .map__img--eagle {
@@ -419,11 +570,25 @@
   top: 10vh;
   left: 36vw;
 }
+@media (max-width: 944px){
+  .map__img--eagle {
+    background: url(./img/eagle.svg);
+    top: 32vh;
+    left: 26vw;
+  }
+}
 
 .map__img--raccoon {
   background: url(./img/raccoon.svg);
   top: 10vh;
   left: 30vw;
+}
+@media (max-width: 944px){
+  .map__img--raccoon {
+    background: url(./img/raccoon.svg);
+    top: 20vh;
+    left: 33vw;
+  }
 }
 
 /* Asia */
@@ -432,17 +597,38 @@
   top: 20vh;
   right: 25vw;
 }
+@media (max-width: 944px){
+  .map__img--panda {
+    background: url(./img/panda.svg);
+    top: 32vh;
+    right: 25vw;
+  }
+}
 
 .map__img--turtle {
   background: url(./img/turtle.svg);
   top: 17vh;
   right: 35vw;
 }
+@media (max-width: 944px){
+  .map__img--turtle {
+    background: url(./img/turtle.svg);
+    top: 37vh;
+    right: 35vw;
+  }
+}
 
 .map__img--peacock {
   background: url(./img/peacock.svg);
   top: 30vh;
   right: 35vw;
+}
+@media (max-width: 944px){
+  .map__img--peacock {
+    background: url(./img/peacock.svg);
+    top: 25vh;
+    right: 35vw;
+  }
 }
 
 .map__img--orangutan {
@@ -456,11 +642,25 @@
   top: 20vh;
   right: 38vw;
 }
+@media (max-width: 944px){
+  .map__img--lynx {
+    background: url(./img/lynx.svg);
+    top: 20vh;
+    right: 18vw;
+  }
+}
 
 .map__img--tiger {
   background: url(./img/tiger.svg);
   top: 10vh;
   right: 25vw;
+}
+@media (max-width: 944px){
+  .map__img--tiger {
+    background: url(./img/tiger.svg);
+    top: 20vh;
+    right: 25vw;
+  }
 }
 
 /* Australia*/
@@ -476,16 +676,39 @@
   right: 18vw;
 }
 
+@media (max-width: 944px) {
+  .map__img--cockatoo {
+    background: url(./img/cockatoo.svg);
+    bottom: 42vh;
+    right: 18vw;
+  } 
+}
 .map__img--koala {
   background: url(./img/koala.svg);
   bottom: 37vh;
   right: 28vw;
 }
+@media (max-width: 944px) {
+  .map__img--koala {
+    background: url(./img/koala.svg);
+    bottom: 40vh;
+    right: 25vw;
+  }
+  } 
+
+
  /* Africa */
 .map__img--camel {
   background: url(./img/camel.svg);
   top: 37vh;
   left: 50vw;
+}
+@media (max-width: 944px){
+  .map__img--camel {
+    background: url(./img/camel.svg);
+    top: 39vh;
+    left: 48vw;
+  }
 }
 
 .map__img--zebra {
@@ -493,11 +716,25 @@
   top: 48vh;
   left: 50vw;
 }
+@media (max-width: 944px){
+  .map__img--zebra {
+    background: url(./img/zebra.svg);
+    top: 47vh;
+    left: 50vw;
+  }
+}
 
 .map__img--gorilla {
   background: url(./img/gorilla.svg);
   top: 37vh;
   left: 45vw;
+}
+@media (max-width: 944px){
+  .map__img--gorilla {
+    background: url(./img/gorilla.svg);
+    top: 38vh;
+    left: 42vw;
+  }
 }
 
 .map__img--lion {
@@ -505,6 +742,14 @@
   top: 55vh;
   left: 50vw;
 }
+@media (max-width: 944px){
+  .map__img--lion {
+    background: url(./img/lion.svg);
+    top: 52vh;
+    left: 50vw;
+  }
+}
+
 /*-----------------------------------*/
 
 .map__img {

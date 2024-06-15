@@ -1,13 +1,14 @@
 
+
+.video__title {
+  font-size: 64px;
+  margin-bottom: 80px;
+}
 @media (max-width: 944px) {
   .video__title {
     font-size: 48px;
   }
   }
-.video__title {
-  font-size: 64px;
-  margin-bottom: 80px;
-}
 
 .video__container {
   position: relative;
@@ -41,11 +42,10 @@
 .video {
   width: 350px;
   height: 205px;
-}
-
-.video {
+  border-radius: 15px;
   transition: 0.4s;
 }
+
 .video:focus,
 .video:hover {
   -webkit-transform: scale(1.2);
