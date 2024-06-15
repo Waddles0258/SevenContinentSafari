@@ -5,6 +5,7 @@
 }
 
 .card_container {
+  height: 400px;
   padding: 24px;
   border-radius: 15%;
   background-color: #fff;
@@ -17,8 +18,8 @@
 }
 
 .card_title {
-  color:#02775D ;
-  font-size: 22px ;
+  color: #02775D;
+  font-size: 22px;
   margin-bottom: 18px;
   letter-spacing: 1px;
 }

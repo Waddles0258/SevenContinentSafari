@@ -526,3 +526,13 @@
   width: 100px;
   height: 100px;
 }
+.animal__container {
+  position: absolute;
+  width: 300px;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.hidden {
+  display: none;
+}
