@@ -5,10 +5,12 @@ import { Footer } from '../Footer';
 import { Videos } from '../Videos';
 import { useState } from 'react';
 import { ArrowUp } from '../ArrowUp';
+import { useEffect } from 'react';
 
 export const QuizzContinent = () => {
   const [page, setPage] = useState(0);
   const [totalSum, setTotalSum] = useState(0);
+  const [randomNumber, setRandomNumber] = useState(0);
   let sum;
 
   const [continents, setContinents] = useState([
@@ -19,7 +21,6 @@ export const QuizzContinent = () => {
       wrong: '5',
       mark: 0,
     },
-    { number: '', question: '', right: '', wrong: '', mark: 0 },
     {
       number: '2',
       question: 'How many oceans are there on our planet?',
@@ -27,7 +28,6 @@ export const QuizzContinent = () => {
       wrong: '7',
       mark: 0,
     },
-    { number: '', question: '', right: '', wrong: '', mark: 0 },
     {
       number: '3',
       question: 'Which continent is completely covered with ice',
@@ -35,7 +35,6 @@ export const QuizzContinent = () => {
       wrong: 'Africa',
       mark: 0,
     },
-    { number: '', question: '', right: '', wrong: '', mark: 0 },
     {
       number: '4',
       question: 'Which ocean is the saltiest?',
@@ -43,7 +42,6 @@ export const QuizzContinent = () => {
       wrong: 'Indian ocean',
       mark: 0,
     },
-    { number: '', question: '', right: '', wrong: '', mark: 0 },
     {
       number: '5',
       question: 'Which ocean is the largest?',
@@ -51,7 +49,6 @@ export const QuizzContinent = () => {
       wrong: 'Arctic Ocean',
       mark: 0,
     },
-    { number: '', question: '', right: '', wrong: '', mark: 0 },
     {
       number: '6',
       question: 'Which continent is a separate country?',
@@ -59,7 +56,6 @@ export const QuizzContinent = () => {
       wrong: 'Antarctica',
       mark: 0,
     },
-    { number: '', question: '', right: '', wrong: '', mark: 0 },
     {
       number: '7',
       question: 'On which continent is the world`s smallest state Vatican ?',
@@ -68,13 +64,22 @@ export const QuizzContinent = () => {
       mark: 0,
     },
   ]);
+  const generateRandomNumber = () => {
+    const newRandomNumber = (Math.floor(Math.random() * 100) + 1) % 2;
+    setRandomNumber(newRandomNumber);
+  };
+  useEffect(() => {
+    generateRandomNumber();
+    if (randomNumber === 0) {
+    }
+  });
   const result = () => {
     sum = 0;
     continents.forEach((prvek) => {
       sum += prvek.mark;
     });
     setTotalSum(sum);
-    return 12;
+    return 6;
   };
   const restart = () => {
     const updatedContinents = [...continents];
@@ -108,25 +113,58 @@ export const QuizzContinent = () => {
             <img className="box_img" src="/Earth.svg" alt="earth" />
           </div>
           <p className="quizz_question">{continents[page].question}</p>
-          <div
-            onClick={() => {
-              handleRightAnswerClick();
-              setPage(page < 12 ? page + 1 : result());
-              document.querySelector('.correct').classList.remove('hidden');
-            }}
-            className="quizz-field"
-          >
-            <p className="answer">{continents[page].right}</p>
-          </div>
-          <div
-            onClick={() => {
-              handleWrongAnswerClick();
-              setPage(page < 12 ? page + 1 : result());
-              document.querySelector('.incorrect').classList.remove('hidden');
-            }}
-            className="quizz-field quizz-field--second"
-          >
-            <p className="answer">{continents[page].wrong}</p>
+          <div>
+            {randomNumber === 0 ? (
+              <>
+                <div
+                  onClick={() => {
+                    handleRightAnswerClick();
+                    document
+                      .querySelector('.correct')
+                      .classList.remove('hidden');
+                  }}
+                  className="quizz-field"
+                >
+                  <p className="answer">{continents[page].right}</p>
+                </div>
+                <div
+                  onClick={() => {
+                    handleWrongAnswerClick();
+                    document
+                      .querySelector('.incorrect')
+                      .classList.remove('hidden');
+                  }}
+                  className="quizz-field quizz-field--second"
+                >
+                  <p className="answer">{continents[page].wrong}</p>
+                </div>
+              </>
+            ) : (
+              <>
+                <div
+                  onClick={() => {
+                    handleWrongAnswerClick();
+                    document
+                      .querySelector('.incorrect')
+                      .classList.remove('hidden');
+                  }}
+                  className="quizz-field quizz-field--second"
+                >
+                  <p className="answer">{continents[page].wrong}</p>
+                </div>
+                <div
+                  onClick={() => {
+                    handleRightAnswerClick();
+                    document
+                      .querySelector('.correct')
+                      .classList.remove('hidden');
+                  }}
+                  className="quizz-field"
+                >
+                  <p className="answer">{continents[page].right}</p>
+                </div>
+              </>
+            )}
           </div>
           <div className="quizz_btns">
             <a
@@ -142,10 +180,10 @@ export const QuizzContinent = () => {
             </a>
             <a
               onClick={() => {
-                setPage(page < 12 ? page + 1 : result());
+                setPage(page < 6 ? page + 1 : result());
                 document.querySelector('.correct').classList.add('hidden');
                 document.querySelector('.incorrect').classList.add('hidden');
-                if (page === 12) {
+                if (page === 6) {
                   document
                     .querySelector('.quizzLP_container')
                     .classList.remove('hidden');
