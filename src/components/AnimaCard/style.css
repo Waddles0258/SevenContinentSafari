@@ -5,6 +5,7 @@
 }
 
 .card_container {
+  height: 400px;
   padding: 24px;
   border-radius: 15%;
   background-color: #fff;
