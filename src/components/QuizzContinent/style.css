@@ -98,7 +98,7 @@
 }
 
 .quizz-field {
-  width: 800px;
+  width: 80%;
   height: 90px;
   background: #d9d9d9;
   border-radius: 15px;
@@ -117,7 +117,7 @@
 
 .answer {
   font-weight: 400;
-  font-size: 32px;
+  font-size: 24px;
   color: #050505;
   font-family: 'inter', sans-serif;
 }
