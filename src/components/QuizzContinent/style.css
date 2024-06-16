@@ -90,7 +90,7 @@
 
 .quizz__field--container {
   height: 180px;
-  width: 800px;
+  max-width:100%;
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -98,8 +98,8 @@
 }
 
 .quizz-field {
-  width: 80%;
-  height: 90px;
+  max-width: 70%;
+  height: 60px;
   background: #d9d9d9;
   border-radius: 15px;
   display: flex;
@@ -122,18 +122,16 @@
   font-family: 'inter', sans-serif;
 }
 
-
-
-
 .quizz_btns {
   display: flex;
-  justify-content: space-around;
-  padding-bottom: 50px;
+  justify-content: space-between;
+  max-width: 70%;
+  margin:0 auto;
 }
+
 
 .previous,
 .next {
-  margin-top: 50px;
   font-family: 'inter', sans-serif;
   border: 3px solid #fff;
   border-radius: 100px;
