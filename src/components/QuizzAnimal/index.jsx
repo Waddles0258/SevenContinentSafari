@@ -122,7 +122,7 @@ export const QuizzAnimal = () => {
           </div>
           <p className="quizz_question">{continents[page].question}</p>
 
-          <div>
+          <div className="quizz__field--container">
             {randomNumber === 0 ? (
               <>
                 <div
@@ -143,7 +143,7 @@ export const QuizzAnimal = () => {
                       .querySelector('.incorrect')
                       .classList.remove('hidden');
                   }}
-                  className="quizz-field quizz-field--second"
+                  className="quizz-field"
                 >
                   <p className="answer">{continents[page].wrong}</p>
                 </div>
@@ -157,7 +157,7 @@ export const QuizzAnimal = () => {
                       .querySelector('.incorrect')
                       .classList.remove('hidden');
                   }}
-                  className="quizz-field quizz-field--second"
+                  className="quizz-field"
                 >
                   <p className="answer">{continents[page].wrong}</p>
                 </div>
