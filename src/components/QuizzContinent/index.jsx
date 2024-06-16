@@ -113,7 +113,7 @@ export const QuizzContinent = () => {
             <img className="box_img" src="/Earth.svg" alt="earth" />
           </div>
           <p className="quizz_question">{continents[page].question}</p>
-          <div>
+          <div className="quizz__field--container">
             {randomNumber === 0 ? (
               <>
                 <div

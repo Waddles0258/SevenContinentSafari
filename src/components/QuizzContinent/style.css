@@ -1,4 +1,3 @@
-
 .quizz_title {
   font-family: 'inter', sans-serif;
   font-weight: 500;
@@ -89,18 +88,27 @@
   }
 }
 
+.quizz__field--container {
+  height: 180px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin: 0 auto;
+}
+
 .quizz-field {
-  max-width: 70%;
-  height: 60px;
+  width: 800px;
+  height: 90px;
   background: #d9d9d9;
   border-radius: 15px;
-  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: all 0.4s;
-
+  margin: 0 auto;
 }
+
 .quizz-field:focus,
 .quizz-field:hover {
   background-color: #FF6924;
@@ -116,10 +124,6 @@
 }
 
 
-.quizz-field.quizz-field--second {
-  margin-top: 30px;
-  margin-bottom: 25px;
-}
 
 
 .quizz_btns {
