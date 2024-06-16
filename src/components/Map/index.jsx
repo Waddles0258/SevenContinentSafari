@@ -58,7 +58,7 @@ export const Map = () => {
     {
       name: 'walrus',
       img: '/walrus.svg',
-      text: 'Walruses are marine mammals that live in the coastal areas of the cold Antarctic waters of the Atlantic and Pacific Oceans.Males and females have two long white fangs sticking out of their mouths. A thick layer of blubber (fat) under the wrinkled skin protects the animals from the Arctic cold.',
+      text: 'Walruses are marine mammals that live in the coastal areas of the cold Antarctic waters of the Atlantic and Pacific Oceans.Males and females have two long white fangs sticking out of their mouths.',
     },
     {
       name: 'killer-whale',

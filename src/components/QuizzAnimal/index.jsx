@@ -64,10 +64,10 @@ export const QuizzAnimal = () => {
     },
     {
       number: '7',
-      question: 'On what continent does fox live?',
+      question: 'On what continent does raccoon live?',
       right: 'North America',
       wrong: 'Europa',
-      img: '/fox.svg',
+      img: '/raccoon.svg',
       mark: 0,
     },
   ]);
