@@ -30,7 +30,7 @@ export const QuizzContinent = () => {
     },
     {
       number: '3',
-      question: 'Which continent is completely covered with ice',
+      question: 'Which continent is completely covered with ice?',
       right: 'Antarctica',
       wrong: 'Africa',
       mark: 0,
