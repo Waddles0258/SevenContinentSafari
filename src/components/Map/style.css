@@ -146,13 +146,11 @@
   }
 }
 
-
 .map__img--fox {
   background: url(./img/fox.svg);
   top: 22vh;
   left: 47vw;
 }
-
 
 .map__img--hare {
   background: url(./img/hare.svg);
@@ -237,7 +235,7 @@
 .map__container .map__img--killer-whale {
   width: 55px;
   background: url(./img/killer_whale.svg)no-repeat;
-  bottom: 5vh;
+  bottom: 8vh;
   left: 45vw;
 }
 @media (max-width: 1181px){
@@ -394,7 +392,7 @@
 
 .map__img--peacock {
   background: url(./img/peacock.svg);
-  top: 15vh;
+  top: 17vh;
   right: 35vw;
 }
 @media (max-width: 1181px){
@@ -426,7 +424,7 @@
 
 .map__img--tiger {
   background: url(./img/tiger.svg);
-  top: 10vh;
+  top: 15vh;
   right: 25vw;
 }
 @media (max-width: 1181px){
