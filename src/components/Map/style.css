@@ -373,8 +373,8 @@
 /* Asia */
 .map__img--panda {
   background: url(./img/panda.svg);
-  top: 23vh;
-  right: 25vw;
+  top: 26vh;
+  right: 28vw;
 }
 @media (max-width: 1181px){
   .map__img--panda {
@@ -392,8 +392,8 @@
 
 .map__img--peacock {
   background: url(./img/peacock.svg);
-  top: 17vh;
-  right: 35vw;
+  top: 15vh;
+  right: 33vw;
 }
 @media (max-width: 1181px){
   .map__img--peacock {
