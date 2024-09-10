@@ -9,9 +9,7 @@ export const Header = () => {
         <div className="header-box" >
           <Link to="/"><img className="logo" src="/Logo.svg"/></Link>
           <div className="nav">
-           {/*  <Link className="hover-orange" to="/Pexesso">
-              Pexxesso
-            </Link>*/}
+          
             <div className="subnav">
               <a className="hover-orange">
                 Quizes <i className="fa fa-caret-down"></i>
